@@ -1,0 +1,20 @@
+﻿<Window x:Class="DCVExtensionGeometryGuiCS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="DCV Extension - Geometry example" Height="450" Width="800" ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="ciao" VerticalAlignment="Center" Margin="10" />
+        <Canvas Grid.Row="1" Name="Pad" Width="192" Height="108" Background="Beige" HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                MouseMove="Pad_MouseMove" />
+    </Grid>
+</Window>

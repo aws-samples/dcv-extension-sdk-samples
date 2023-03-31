@@ -1,0 +1,8 @@
+{
+    "name": "DCVExtensionVirtualChannelsCS",
+    "description": "DCV Extension Vitual Channels C#",
+    "path": "path/to/dcvextension.exe",
+    "start_on_server": true,
+    "start_on_client": true,
+    "data_channel_namespace": "dcvtest"
+}

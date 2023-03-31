@@ -1,0 +1,7 @@
+{
+    "name": "DCVExtensionGeometryCS",
+    "description": "DCV Extension Geometry C#",
+    "path": "path/to/DcvExtensionGeometryCS.exe",
+    "start_on_server": false,
+    "start_on_client": true
+}

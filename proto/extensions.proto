@@ -1,0 +1,243 @@
+/*
+ * Copyright 2022 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ */
+
+syntax = "proto3";
+
+package dcv.extensions;
+
+/* Helper messages */
+ 
+// Information about DCV (Server or Client)
+message SoftwareInfo {
+    message VersionNumber {
+        uint32 major = 1;                         // The major version number
+        uint32 minor = 2;                         // The minor version number
+        uint32 revision = 3;                      // The revision number
+    }
+
+    string name = 1;                              // The name of the software
+    VersionNumber version = 2;                    // The software version number
+    string os = 3;                                // The OS
+    string arch = 4;                              // The architecture
+    string hostname = 5;                          // The hostname
+}
+
+message Point {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message Rect {
+    int32 x = 1;
+    int32 y = 2;
+    uint32 width = 3;
+    uint32 height = 4;
+}
+
+// Common data to GetStreamingViewsResponse and StreamingViewsChangedEvent.
+message StreamingViews {
+    // Data of one streaming view.
+    message StreamingView {
+        int32 view_id = 1;                       // As returned in IsPointInsideStreamingViewsResponse.
+        Rect local_area = 2;                     // Local virtual screen coordinates.
+        double zoom_factor = 3;                  // Local over remote, eg. 2.0 means that local view is twice as big as remote's area.
+        Point remote_offset = 4;                 // Remote virtual screen coordinates.
+    }
+    
+    // Collection of streaming views.
+    repeated StreamingView streaming_view = 1;
+}
+
+/* Request messages */
+
+ // Message GetDcvInfoRequest can be issued by both client and server extensions, the synchronous
+ // response message GetDcvInfoResponse will deliver information about DCV (Server and Client)
+ // used by the extension.
+ message GetDcvInfoRequest {
+    /* Empty */
+ }
+
+// Message GetManifestRequest can be issued by both client and server extensions, the synchronous
+// response message GetManifestResponse will deliver the file path to the manifest used to launch
+// the executable of the calling extension.
+message GetManifestRequest {
+    /* Empty */
+}
+
+// Message SetupVirtualChannelRequest must be issued by both client and server extensions in order
+// to establish a virtual channel between them.
+// A synchronous response message of type SetupVirtualChannelRequest with status SUCCESS means that
+// the processing of the request has begun, the extension will be able to send and receive data
+// after receiving the asynchronous event VirtualChannelReadyEvent.
+message SetupVirtualChannelRequest {
+    string virtual_channel_name = 1;             // Specific name of the virtual channel (the namespace is taken from the manifest).
+    int64 relay_client_process_id = 2;           // The pid of the process that will open the client side of the relay.
+}
+
+// Close a previously opened virtual channel.
+message CloseVirtualChannelRequest {
+    string virtual_channel_name = 1;             // Specific name of the virtual channel to be closed.
+}
+
+// Message SetCursorPointRequest will be followed by a synchronous SetCursorPointResponse.
+message SetCursorPointRequest {
+    Point point = 1;                             // Local virtual screen coordinates.
+}
+
+// Message GetStreamingViewsRequest will be followed by a synchronous GetStreamingViewsResponse.
+// After the first GetStreamingViewsRequest is issued DCV will also start sending asynchronous
+// StreamingViewsChangedEvent messages whenever the geometry of the local streaming views is changed
+// (eg. the client window is resized or moved) or the geometry of the remote desktop is changed
+// (eg. a monitor is added or removed). 
+message GetStreamingViewsRequest {
+    /* Empty */
+}
+
+// Message IsPointInsideStreamingViewsRequest will be followed by a synchronous IsPointInsideStreamingViewsResponse.
+message IsPointInsideStreamingViewsRequest {
+    Point point = 1;                             // Local virtual screen coordinates.
+}
+
+/* Response messages */
+
+// Synchronous response to a GetDcvInfoRequest
+message GetDcvInfoResponse {
+    enum DcvRole {
+        Server = 0;
+        Client = 1;
+    }
+
+    DcvRole dcv_role = 1;
+    int64 dcv_process_id = 2;
+    SoftwareInfo server_info = 3;
+    SoftwareInfo client_info = 4;
+}
+
+// Synchronous response to a GetManifestRequest.
+message GetManifestResponse {
+    string manifest_path = 1;                    // File path to the manifest file.
+}
+
+// Synchronous response to a SetupVirtualChannelRequest.
+message SetupVirtualChannelResponse {
+    string virtual_channel_name = 1;             // Specific name of the virtual channel to be set up.
+    string relay_path = 2;                       // Full name of the relay to the virtual channel.
+    int64 relay_server_process_id = 3;           // The pid of the process that will open the server side of the relay.
+    bytes virtual_channel_auth_token = 4;        // The auth token to send on the virtual channel to validate the connecting process.
+}
+
+// Response to a CloseVirtualChannelRequest.
+message CloseVirtualChannelResponse {
+    string virtual_channel_name = 1;             // Specific name of the virtual channel to be closed.
+}
+
+// Response to a SetCursorPointRequest.
+message SetCursorPointResponse {
+    /* Empty */
+}
+
+// Synchronous response to a GetStreamingViewsRequest.
+message GetStreamingViewsResponse {
+    StreamingViews streaming_views = 1;
+}
+
+// Response to a IsPointInsideStreamingViewsRequest.
+// If the point lies inside a local view and it is visible (eg. not covered by another window or a local GUI element),
+// the view_id of that view is returned, otherwise -1 is returned.
+message IsPointInsideStreamingViewsResponse {
+    int32 view_id = 1;                           // From GetStreamingViewsResponse or GetStreamingViewsChangedEvent, -1 if the point lies outside all local views.
+}
+
+/* Event messages */
+
+// Successfull asynchronous response to a SetupVirtualChannelRequest.
+message VirtualChannelReadyEvent {
+    string virtual_channel_name = 1;             // Specific name of the virtual channel set up.
+}
+
+// Asynchronous notification, the virtual channel has been closed by the other party.
+message VirtualChannelClosedEvent {
+    string virtual_channel_name = 1;             // Specific name of the closed virtual channel.
+}
+
+// Asynchronous notification, the geometry of local views or of the remote virtual desktop has changed.
+message StreamingViewsChangedEvent {
+    StreamingViews streaming_views = 1;
+}
+
+/* Top level messages */
+
+message Request {
+    string request_id = 1;                       // Optional: unique id for the request used to match requests with responses.
+
+    oneof request {
+        GetDcvInfoRequest get_dcv_info_request = 10;
+        GetManifestRequest get_manifest_request = 11;
+
+        SetupVirtualChannelRequest setup_virtual_channel_request = 20;
+        CloseVirtualChannelRequest close_virtual_channel_request = 21;
+
+        SetCursorPointRequest set_cursor_point_request = 30;
+        GetStreamingViewsRequest get_streaming_views_request = 31;
+        IsPointInsideStreamingViewsRequest is_point_inside_streaming_views_request = 32;
+    }
+}
+
+message Response {
+    enum Status {
+        NONE = 0;                                // Unset value.
+        SUCCESS = 1;                             // The request was successful.
+
+        ERROR_GENERIC = 10;
+        ERROR_ACCESS_DENIED = 11;
+        ERROR_NOT_IMPLEMENTED = 12;
+        ERROR_INVALID_PARAMETER = 13;
+        ERROR_INVALID_VIRTUAL_CHANNEL_NAMESPACE_IN_MANIFEST = 14;
+        ERROR_TOO_MANY_VIRTUAL_CHANNELS = 15;
+    }
+
+    string request_id = 1;                       // The same id sent in the request.
+    Status status = 2;                           // Whether the Request was successful or an error it produced.
+
+    oneof response {
+        /* The numbers match the related Request */
+
+        GetDcvInfoResponse get_dcv_info_response = 10;
+        GetManifestResponse get_manifest_response = 11;
+
+        SetupVirtualChannelResponse setup_virtual_channel_response = 20;
+        CloseVirtualChannelResponse close_virtual_channel_response = 21;
+
+        SetCursorPointResponse set_cursor_point_response = 30;
+        GetStreamingViewsResponse get_streaming_views_response = 31;
+        IsPointInsideStreamingViewsResponse is_point_inside_streaming_views_response = 32;
+    }
+}
+
+message Event {
+    oneof event {
+        VirtualChannelReadyEvent virtual_channel_ready_event = 10;
+
+        VirtualChannelClosedEvent virtual_channel_closed_event = 20; 
+
+        StreamingViewsChangedEvent streaming_views_changed_event = 30;
+    }
+}
+
+/* Messages from extensions to DCV (client or server) */
+message ExtensionMessage {
+    oneof msg {
+        Request request = 1;
+    }
+}
+
+/* Messags from DCV (client or server) to extensions */
+message DcvMessage {
+    oneof msg {
+        Response response = 2;
+        Event event = 3;
+    }
+}
+
+/* ex:set ts=4 et: */

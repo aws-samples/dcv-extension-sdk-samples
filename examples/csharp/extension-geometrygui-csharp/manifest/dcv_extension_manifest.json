@@ -1,0 +1,7 @@
+{
+    "name": "DCVExtensionGeometryGuiCS",
+    "description": "DCV Extension Geometry C# with GUI",
+    "path": "path/to/DcvExtensionGeometryGuiCS.exe",
+    "start_on_server": false,
+    "start_on_client": true
+}
