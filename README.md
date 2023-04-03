@@ -1,6 +1,6 @@
 ## NICE DCV Extension SDK Samples
 
-NICE DCV is a high-performance remote display protocol. It lets you securely deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. By using NICE DCV with Amazon EC2, you can run graphics-intensive applications remotely on Amazon EC2 instances. You can then stream the results to more modest client machines, which eliminates the need for expensive dedicated workstations.
+NICE DCV is a high-performance remote display protocol. It lets you securely deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. By using NICE DCV, you can run graphics-intensive applications remotely. You can then stream the results to more modest client machines, which eliminates the need for expensive dedicated workstations.
 
 With the DCV Extension SDK, developers can integrate DCV protocol with their applications. The following are typical use cases:
 - Provide high-level device redirection for custom hardware devices in remote sessions.
