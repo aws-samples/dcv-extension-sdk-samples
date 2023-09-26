@@ -48,6 +48,15 @@ You can execute the setup_protobuf.bat script in the example folder to download 
 
 The setup_protobuf.bat script is just an utility that performs what described at  https://github.com/protocolbuffers/protobuf/tree/main/src#c-protobuf---windows and https://github.com/microsoft/vcpkg#quick-start-windows
 
+### Rust example (Virtual Channels)
+
+Project dcvextension-rs.
+This example shows the following:
+
+* Build an extension for macOS, Linux, and Windows
+* Compiling extensions.proto into a Rust set of definitions
+* Setting up and exchange data over a virtual channel
+
 ### C# example (Geometry)
 
 Project DcvExtensionGeometryCS
