@@ -11,9 +11,11 @@ Release
 /build
 /builddir
 /deps
-/examples/c/extension-virtual-channel-c/protobuf-c
-/examples/cpp/extension-virtual-channel-cpp/generated
-/examples/c/extension-virtual-channel-c/dcvextension-c.vcxproj.user
+**/protobuf-c/*
 *.filters
-/examples/cpp/extension-virtual-channel-cpp/protobuf
 *.user
+examples/cpp/extension-virtual-channel-cpp/protobuf
+examples/csharp/extension-virtual-channel-csharp/generated
+examples/csharp/extension-geometrygui-csharp/generated
+examples/csharp/extension-geometry-csharp/generated
+examples/cpp/extension-virtual-channel-cpp/generated
