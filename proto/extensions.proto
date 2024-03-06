@@ -43,10 +43,11 @@ message StreamingViews {
         Rect local_area = 2;                     // Local virtual screen coordinates.
         double zoom_factor = 3;                  // Local over remote, eg. 2.0 means that local view is twice as big as remote's area.
         Point remote_offset = 4;                 // Remote virtual screen coordinates.
+        bool has_focus = 5;                      // Streaming view owns the keyboard focus.
     }
     
-    // Collection of streaming views.
-    repeated StreamingView streaming_view = 1;
+    repeated StreamingView streaming_view = 1;   // Collection of streaming views.
+    bool has_focus = 2;                          // Client window owns the keyboard focus.
 }
 
 /* Request messages */

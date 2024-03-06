@@ -68,8 +68,8 @@ namespace DcvExtensionGeometryCS
 
                 foreach (var view in _views.StreamingView)
                     Logger.Log(
-                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}");
-
+                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}");
+                
                 // Discover if mouse pointer is over a streaming area or not
                 var mouseTask = Task.Run(async () =>
                 {
@@ -110,7 +110,7 @@ namespace DcvExtensionGeometryCS
 
             foreach (var view in _views.StreamingView)
                 Logger.Log(
-                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}");
+                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}");
         }
     }
 

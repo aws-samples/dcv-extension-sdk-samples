@@ -65,7 +65,7 @@ namespace DCVExtensionGeometryGuiCS
 
                 foreach (var view in views.StreamingView)
                     logger.Log(
-                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}");
+                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={views.HasFocus}");
             });
         }
 
@@ -76,7 +76,7 @@ namespace DCVExtensionGeometryGuiCS
 
             foreach (var view in views.StreamingView)
                 logger.Log(
-                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}");
+                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={{view.HasFocus}}, client owns focus={{views.HasFocus}}");
         }
 
         private async void Pad_MouseMove(object sender, MouseEventArgs e)
