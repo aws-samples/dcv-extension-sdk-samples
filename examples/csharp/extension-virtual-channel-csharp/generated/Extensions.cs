@@ -31,90 +31,91 @@ namespace Dcv.Extensions {
             "bk51bWJlchINCgVtYWpvchgBIAEoDRINCgVtaW5vchgCIAEoDRIQCghyZXZp",
             "c2lvbhgDIAEoDSIdCgVQb2ludBIJCgF4GAEgASgFEgkKAXkYAiABKAUiOwoE",
             "UmVjdBIJCgF4GAEgASgFEgkKAXkYAiABKAUSDQoFd2lkdGgYAyABKA0SDgoG",
-            "aGVpZ2h0GAQgASgNIuYBCg5TdHJlYW1pbmdWaWV3cxJECg5zdHJlYW1pbmdf",
+            "aGVpZ2h0GAQgASgNIpwCCg5TdHJlYW1pbmdWaWV3cxJECg5zdHJlYW1pbmdf",
             "dmlldxgBIAMoCzIsLmRjdi5leHRlbnNpb25zLlN0cmVhbWluZ1ZpZXdzLlN0",
-            "cmVhbWluZ1ZpZXcajQEKDVN0cmVhbWluZ1ZpZXcSDwoHdmlld19pZBgBIAEo",
-            "BRIoCgpsb2NhbF9hcmVhGAIgASgLMhQuZGN2LmV4dGVuc2lvbnMuUmVjdBIT",
-            "Cgt6b29tX2ZhY3RvchgDIAEoARIsCg1yZW1vdGVfb2Zmc2V0GAQgASgLMhUu",
-            "ZGN2LmV4dGVuc2lvbnMuUG9pbnQiEwoRR2V0RGN2SW5mb1JlcXVlc3QiFAoS",
-            "R2V0TWFuaWZlc3RSZXF1ZXN0IlsKGlNldHVwVmlydHVhbENoYW5uZWxSZXF1",
-            "ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJEh8KF3JlbGF5X2Ns",
-            "aWVudF9wcm9jZXNzX2lkGAIgASgDIjoKGkNsb3NlVmlydHVhbENoYW5uZWxS",
-            "ZXF1ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJIj0KFVNldEN1",
-            "cnNvclBvaW50UmVxdWVzdBIkCgVwb2ludBgBIAEoCzIVLmRjdi5leHRlbnNp",
-            "b25zLlBvaW50IhoKGEdldFN0cmVhbWluZ1ZpZXdzUmVxdWVzdCJKCiJJc1Bv",
-            "aW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXF1ZXN0EiQKBXBvaW50GAEgASgL",
-            "MhUuZGN2LmV4dGVuc2lvbnMuUG9pbnQi8wEKEkdldERjdkluZm9SZXNwb25z",
-            "ZRI8CghkY3Zfcm9sZRgBIAEoDjIqLmRjdi5leHRlbnNpb25zLkdldERjdklu",
-            "Zm9SZXNwb25zZS5EY3ZSb2xlEhYKDmRjdl9wcm9jZXNzX2lkGAIgASgDEjEK",
-            "C3NlcnZlcl9pbmZvGAMgASgLMhwuZGN2LmV4dGVuc2lvbnMuU29mdHdhcmVJ",
-            "bmZvEjEKC2NsaWVudF9pbmZvGAQgASgLMhwuZGN2LmV4dGVuc2lvbnMuU29m",
-            "dHdhcmVJbmZvIiEKB0RjdlJvbGUSCgoGU2VydmVyEAASCgoGQ2xpZW50EAEi",
-            "LAoTR2V0TWFuaWZlc3RSZXNwb25zZRIVCg1tYW5pZmVzdF9wYXRoGAEgASgJ",
-            "IpQBChtTZXR1cFZpcnR1YWxDaGFubmVsUmVzcG9uc2USHAoUdmlydHVhbF9j",
-            "aGFubmVsX25hbWUYASABKAkSEgoKcmVsYXlfcGF0aBgCIAEoCRIfChdyZWxh",
-            "eV9zZXJ2ZXJfcHJvY2Vzc19pZBgDIAEoAxIiChp2aXJ0dWFsX2NoYW5uZWxf",
-            "YXV0aF90b2tlbhgEIAEoDCI7ChtDbG9zZVZpcnR1YWxDaGFubmVsUmVzcG9u",
-            "c2USHAoUdmlydHVhbF9jaGFubmVsX25hbWUYASABKAkiGAoWU2V0Q3Vyc29y",
-            "UG9pbnRSZXNwb25zZSJUChlHZXRTdHJlYW1pbmdWaWV3c1Jlc3BvbnNlEjcK",
-            "D3N0cmVhbWluZ192aWV3cxgBIAEoCzIeLmRjdi5leHRlbnNpb25zLlN0cmVh",
-            "bWluZ1ZpZXdzIjYKI0lzUG9pbnRJbnNpZGVTdHJlYW1pbmdWaWV3c1Jlc3Bv",
-            "bnNlEg8KB3ZpZXdfaWQYASABKAUiOAoYVmlydHVhbENoYW5uZWxSZWFkeUV2",
-            "ZW50EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJIjkKGVZpcnR1YWxD",
-            "aGFubmVsQ2xvc2VkRXZlbnQSHAoUdmlydHVhbF9jaGFubmVsX25hbWUYASAB",
-            "KAkiVQoaU3RyZWFtaW5nVmlld3NDaGFuZ2VkRXZlbnQSNwoPc3RyZWFtaW5n",
-            "X3ZpZXdzGAEgASgLMh4uZGN2LmV4dGVuc2lvbnMuU3RyZWFtaW5nVmlld3Mi",
-            "3AQKB1JlcXVlc3QSEgoKcmVxdWVzdF9pZBgBIAEoCRJBChRnZXRfZGN2X2lu",
-            "Zm9fcmVxdWVzdBgKIAEoCzIhLmRjdi5leHRlbnNpb25zLkdldERjdkluZm9S",
-            "ZXF1ZXN0SAASQgoUZ2V0X21hbmlmZXN0X3JlcXVlc3QYCyABKAsyIi5kY3Yu",
-            "ZXh0ZW5zaW9ucy5HZXRNYW5pZmVzdFJlcXVlc3RIABJTCh1zZXR1cF92aXJ0",
-            "dWFsX2NoYW5uZWxfcmVxdWVzdBgUIAEoCzIqLmRjdi5leHRlbnNpb25zLlNl",
-            "dHVwVmlydHVhbENoYW5uZWxSZXF1ZXN0SAASUwodY2xvc2VfdmlydHVhbF9j",
-            "aGFubmVsX3JlcXVlc3QYFSABKAsyKi5kY3YuZXh0ZW5zaW9ucy5DbG9zZVZp",
-            "cnR1YWxDaGFubmVsUmVxdWVzdEgAEkkKGHNldF9jdXJzb3JfcG9pbnRfcmVx",
-            "dWVzdBgeIAEoCzIlLmRjdi5leHRlbnNpb25zLlNldEN1cnNvclBvaW50UmVx",
-            "dWVzdEgAEk8KG2dldF9zdHJlYW1pbmdfdmlld3NfcmVxdWVzdBgfIAEoCzIo",
-            "LmRjdi5leHRlbnNpb25zLkdldFN0cmVhbWluZ1ZpZXdzUmVxdWVzdEgAEmUK",
-            "J2lzX3BvaW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVxdWVzdBggIAEo",
-            "CzIyLmRjdi5leHRlbnNpb25zLklzUG9pbnRJbnNpZGVTdHJlYW1pbmdWaWV3",
-            "c1JlcXVlc3RIAEIJCgdyZXF1ZXN0IoEHCghSZXNwb25zZRISCgpyZXF1ZXN0",
-            "X2lkGAEgASgJEi8KBnN0YXR1cxgCIAEoDjIfLmRjdi5leHRlbnNpb25zLlJl",
-            "c3BvbnNlLlN0YXR1cxJDChVnZXRfZGN2X2luZm9fcmVzcG9uc2UYCiABKAsy",
-            "Ii5kY3YuZXh0ZW5zaW9ucy5HZXREY3ZJbmZvUmVzcG9uc2VIABJEChVnZXRf",
-            "bWFuaWZlc3RfcmVzcG9uc2UYCyABKAsyIy5kY3YuZXh0ZW5zaW9ucy5HZXRN",
-            "YW5pZmVzdFJlc3BvbnNlSAASVQoec2V0dXBfdmlydHVhbF9jaGFubmVsX3Jl",
-            "c3BvbnNlGBQgASgLMisuZGN2LmV4dGVuc2lvbnMuU2V0dXBWaXJ0dWFsQ2hh",
-            "bm5lbFJlc3BvbnNlSAASVQoeY2xvc2VfdmlydHVhbF9jaGFubmVsX3Jlc3Bv",
-            "bnNlGBUgASgLMisuZGN2LmV4dGVuc2lvbnMuQ2xvc2VWaXJ0dWFsQ2hhbm5l",
-            "bFJlc3BvbnNlSAASSwoZc2V0X2N1cnNvcl9wb2ludF9yZXNwb25zZRgeIAEo",
-            "CzImLmRjdi5leHRlbnNpb25zLlNldEN1cnNvclBvaW50UmVzcG9uc2VIABJR",
-            "ChxnZXRfc3RyZWFtaW5nX3ZpZXdzX3Jlc3BvbnNlGB8gASgLMikuZGN2LmV4",
-            "dGVuc2lvbnMuR2V0U3RyZWFtaW5nVmlld3NSZXNwb25zZUgAEmcKKGlzX3Bv",
-            "aW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVzcG9uc2UYICABKAsyMy5k",
-            "Y3YuZXh0ZW5zaW9ucy5Jc1BvaW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXNw",
-            "b25zZUgAIuEBCgZTdGF0dXMSCAoETk9ORRAAEgsKB1NVQ0NFU1MQARIRCg1F",
-            "UlJPUl9HRU5FUklDEAoSFwoTRVJST1JfQUNDRVNTX0RFTklFRBALEhkKFUVS",
-            "Uk9SX05PVF9JTVBMRU1FTlRFRBAMEhsKF0VSUk9SX0lOVkFMSURfUEFSQU1F",
-            "VEVSEA0SNwozRVJST1JfSU5WQUxJRF9WSVJUVUFMX0NIQU5ORUxfTkFNRVNQ",
-            "QUNFX0lOX01BTklGRVNUEA4SIwofRVJST1JfVE9PX01BTllfVklSVFVBTF9D",
-            "SEFOTkVMUxAPQgoKCHJlc3BvbnNlIokCCgVFdmVudBJPCht2aXJ0dWFsX2No",
-            "YW5uZWxfcmVhZHlfZXZlbnQYCiABKAsyKC5kY3YuZXh0ZW5zaW9ucy5WaXJ0",
-            "dWFsQ2hhbm5lbFJlYWR5RXZlbnRIABJRChx2aXJ0dWFsX2NoYW5uZWxfY2xv",
-            "c2VkX2V2ZW50GBQgASgLMikuZGN2LmV4dGVuc2lvbnMuVmlydHVhbENoYW5u",
-            "ZWxDbG9zZWRFdmVudEgAElMKHXN0cmVhbWluZ192aWV3c19jaGFuZ2VkX2V2",
-            "ZW50GB4gASgLMiouZGN2LmV4dGVuc2lvbnMuU3RyZWFtaW5nVmlld3NDaGFu",
-            "Z2VkRXZlbnRIAEIHCgVldmVudCJFChBFeHRlbnNpb25NZXNzYWdlEioKB3Jl",
-            "cXVlc3QYASABKAsyFy5kY3YuZXh0ZW5zaW9ucy5SZXF1ZXN0SABCBQoDbXNn",
-            "ImkKCkRjdk1lc3NhZ2USLAoIcmVzcG9uc2UYAiABKAsyGC5kY3YuZXh0ZW5z",
-            "aW9ucy5SZXNwb25zZUgAEiYKBWV2ZW50GAMgASgLMhUuZGN2LmV4dGVuc2lv",
-            "bnMuRXZlbnRIAEIFCgNtc2diBnByb3RvMw=="));
+            "cmVhbWluZ1ZpZXcSEQoJaGFzX2ZvY3VzGAIgASgIGrABCg1TdHJlYW1pbmdW",
+            "aWV3Eg8KB3ZpZXdfaWQYASABKAUSKAoKbG9jYWxfYXJlYRgCIAEoCzIULmRj",
+            "di5leHRlbnNpb25zLlJlY3QSEwoLem9vbV9mYWN0b3IYAyABKAESLAoNcmVt",
+            "b3RlX29mZnNldBgEIAEoCzIVLmRjdi5leHRlbnNpb25zLlBvaW50EhEKCWhh",
+            "c19mb2N1cxgFIAEoCBIOCgZoYW5kbGUYBiABKAQiEwoRR2V0RGN2SW5mb1Jl",
+            "cXVlc3QiFAoSR2V0TWFuaWZlc3RSZXF1ZXN0IlsKGlNldHVwVmlydHVhbENo",
+            "YW5uZWxSZXF1ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJEh8K",
+            "F3JlbGF5X2NsaWVudF9wcm9jZXNzX2lkGAIgASgDIjoKGkNsb3NlVmlydHVh",
+            "bENoYW5uZWxSZXF1ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJ",
+            "Ij0KFVNldEN1cnNvclBvaW50UmVxdWVzdBIkCgVwb2ludBgBIAEoCzIVLmRj",
+            "di5leHRlbnNpb25zLlBvaW50IhoKGEdldFN0cmVhbWluZ1ZpZXdzUmVxdWVz",
+            "dCJKCiJJc1BvaW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXF1ZXN0EiQKBXBv",
+            "aW50GAEgASgLMhUuZGN2LmV4dGVuc2lvbnMuUG9pbnQi8wEKEkdldERjdklu",
+            "Zm9SZXNwb25zZRI8CghkY3Zfcm9sZRgBIAEoDjIqLmRjdi5leHRlbnNpb25z",
+            "LkdldERjdkluZm9SZXNwb25zZS5EY3ZSb2xlEhYKDmRjdl9wcm9jZXNzX2lk",
+            "GAIgASgDEjEKC3NlcnZlcl9pbmZvGAMgASgLMhwuZGN2LmV4dGVuc2lvbnMu",
+            "U29mdHdhcmVJbmZvEjEKC2NsaWVudF9pbmZvGAQgASgLMhwuZGN2LmV4dGVu",
+            "c2lvbnMuU29mdHdhcmVJbmZvIiEKB0RjdlJvbGUSCgoGU2VydmVyEAASCgoG",
+            "Q2xpZW50EAEiLAoTR2V0TWFuaWZlc3RSZXNwb25zZRIVCg1tYW5pZmVzdF9w",
+            "YXRoGAEgASgJIpQBChtTZXR1cFZpcnR1YWxDaGFubmVsUmVzcG9uc2USHAoU",
+            "dmlydHVhbF9jaGFubmVsX25hbWUYASABKAkSEgoKcmVsYXlfcGF0aBgCIAEo",
+            "CRIfChdyZWxheV9zZXJ2ZXJfcHJvY2Vzc19pZBgDIAEoAxIiChp2aXJ0dWFs",
+            "X2NoYW5uZWxfYXV0aF90b2tlbhgEIAEoDCI7ChtDbG9zZVZpcnR1YWxDaGFu",
+            "bmVsUmVzcG9uc2USHAoUdmlydHVhbF9jaGFubmVsX25hbWUYASABKAkiGAoW",
+            "U2V0Q3Vyc29yUG9pbnRSZXNwb25zZSJUChlHZXRTdHJlYW1pbmdWaWV3c1Jl",
+            "c3BvbnNlEjcKD3N0cmVhbWluZ192aWV3cxgBIAEoCzIeLmRjdi5leHRlbnNp",
+            "b25zLlN0cmVhbWluZ1ZpZXdzIjYKI0lzUG9pbnRJbnNpZGVTdHJlYW1pbmdW",
+            "aWV3c1Jlc3BvbnNlEg8KB3ZpZXdfaWQYASABKAUiOAoYVmlydHVhbENoYW5u",
+            "ZWxSZWFkeUV2ZW50EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJIjkK",
+            "GVZpcnR1YWxDaGFubmVsQ2xvc2VkRXZlbnQSHAoUdmlydHVhbF9jaGFubmVs",
+            "X25hbWUYASABKAkiVQoaU3RyZWFtaW5nVmlld3NDaGFuZ2VkRXZlbnQSNwoP",
+            "c3RyZWFtaW5nX3ZpZXdzGAEgASgLMh4uZGN2LmV4dGVuc2lvbnMuU3RyZWFt",
+            "aW5nVmlld3Mi3AQKB1JlcXVlc3QSEgoKcmVxdWVzdF9pZBgBIAEoCRJBChRn",
+            "ZXRfZGN2X2luZm9fcmVxdWVzdBgKIAEoCzIhLmRjdi5leHRlbnNpb25zLkdl",
+            "dERjdkluZm9SZXF1ZXN0SAASQgoUZ2V0X21hbmlmZXN0X3JlcXVlc3QYCyAB",
+            "KAsyIi5kY3YuZXh0ZW5zaW9ucy5HZXRNYW5pZmVzdFJlcXVlc3RIABJTCh1z",
+            "ZXR1cF92aXJ0dWFsX2NoYW5uZWxfcmVxdWVzdBgUIAEoCzIqLmRjdi5leHRl",
+            "bnNpb25zLlNldHVwVmlydHVhbENoYW5uZWxSZXF1ZXN0SAASUwodY2xvc2Vf",
+            "dmlydHVhbF9jaGFubmVsX3JlcXVlc3QYFSABKAsyKi5kY3YuZXh0ZW5zaW9u",
+            "cy5DbG9zZVZpcnR1YWxDaGFubmVsUmVxdWVzdEgAEkkKGHNldF9jdXJzb3Jf",
+            "cG9pbnRfcmVxdWVzdBgeIAEoCzIlLmRjdi5leHRlbnNpb25zLlNldEN1cnNv",
+            "clBvaW50UmVxdWVzdEgAEk8KG2dldF9zdHJlYW1pbmdfdmlld3NfcmVxdWVz",
+            "dBgfIAEoCzIoLmRjdi5leHRlbnNpb25zLkdldFN0cmVhbWluZ1ZpZXdzUmVx",
+            "dWVzdEgAEmUKJ2lzX3BvaW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVx",
+            "dWVzdBggIAEoCzIyLmRjdi5leHRlbnNpb25zLklzUG9pbnRJbnNpZGVTdHJl",
+            "YW1pbmdWaWV3c1JlcXVlc3RIAEIJCgdyZXF1ZXN0IoEHCghSZXNwb25zZRIS",
+            "CgpyZXF1ZXN0X2lkGAEgASgJEi8KBnN0YXR1cxgCIAEoDjIfLmRjdi5leHRl",
+            "bnNpb25zLlJlc3BvbnNlLlN0YXR1cxJDChVnZXRfZGN2X2luZm9fcmVzcG9u",
+            "c2UYCiABKAsyIi5kY3YuZXh0ZW5zaW9ucy5HZXREY3ZJbmZvUmVzcG9uc2VI",
+            "ABJEChVnZXRfbWFuaWZlc3RfcmVzcG9uc2UYCyABKAsyIy5kY3YuZXh0ZW5z",
+            "aW9ucy5HZXRNYW5pZmVzdFJlc3BvbnNlSAASVQoec2V0dXBfdmlydHVhbF9j",
+            "aGFubmVsX3Jlc3BvbnNlGBQgASgLMisuZGN2LmV4dGVuc2lvbnMuU2V0dXBW",
+            "aXJ0dWFsQ2hhbm5lbFJlc3BvbnNlSAASVQoeY2xvc2VfdmlydHVhbF9jaGFu",
+            "bmVsX3Jlc3BvbnNlGBUgASgLMisuZGN2LmV4dGVuc2lvbnMuQ2xvc2VWaXJ0",
+            "dWFsQ2hhbm5lbFJlc3BvbnNlSAASSwoZc2V0X2N1cnNvcl9wb2ludF9yZXNw",
+            "b25zZRgeIAEoCzImLmRjdi5leHRlbnNpb25zLlNldEN1cnNvclBvaW50UmVz",
+            "cG9uc2VIABJRChxnZXRfc3RyZWFtaW5nX3ZpZXdzX3Jlc3BvbnNlGB8gASgL",
+            "MikuZGN2LmV4dGVuc2lvbnMuR2V0U3RyZWFtaW5nVmlld3NSZXNwb25zZUgA",
+            "EmcKKGlzX3BvaW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVzcG9uc2UY",
+            "ICABKAsyMy5kY3YuZXh0ZW5zaW9ucy5Jc1BvaW50SW5zaWRlU3RyZWFtaW5n",
+            "Vmlld3NSZXNwb25zZUgAIuEBCgZTdGF0dXMSCAoETk9ORRAAEgsKB1NVQ0NF",
+            "U1MQARIRCg1FUlJPUl9HRU5FUklDEAoSFwoTRVJST1JfQUNDRVNTX0RFTklF",
+            "RBALEhkKFUVSUk9SX05PVF9JTVBMRU1FTlRFRBAMEhsKF0VSUk9SX0lOVkFM",
+            "SURfUEFSQU1FVEVSEA0SNwozRVJST1JfSU5WQUxJRF9WSVJUVUFMX0NIQU5O",
+            "RUxfTkFNRVNQQUNFX0lOX01BTklGRVNUEA4SIwofRVJST1JfVE9PX01BTllf",
+            "VklSVFVBTF9DSEFOTkVMUxAPQgoKCHJlc3BvbnNlIokCCgVFdmVudBJPCht2",
+            "aXJ0dWFsX2NoYW5uZWxfcmVhZHlfZXZlbnQYCiABKAsyKC5kY3YuZXh0ZW5z",
+            "aW9ucy5WaXJ0dWFsQ2hhbm5lbFJlYWR5RXZlbnRIABJRChx2aXJ0dWFsX2No",
+            "YW5uZWxfY2xvc2VkX2V2ZW50GBQgASgLMikuZGN2LmV4dGVuc2lvbnMuVmly",
+            "dHVhbENoYW5uZWxDbG9zZWRFdmVudEgAElMKHXN0cmVhbWluZ192aWV3c19j",
+            "aGFuZ2VkX2V2ZW50GB4gASgLMiouZGN2LmV4dGVuc2lvbnMuU3RyZWFtaW5n",
+            "Vmlld3NDaGFuZ2VkRXZlbnRIAEIHCgVldmVudCJFChBFeHRlbnNpb25NZXNz",
+            "YWdlEioKB3JlcXVlc3QYASABKAsyFy5kY3YuZXh0ZW5zaW9ucy5SZXF1ZXN0",
+            "SABCBQoDbXNnImkKCkRjdk1lc3NhZ2USLAoIcmVzcG9uc2UYAiABKAsyGC5k",
+            "Y3YuZXh0ZW5zaW9ucy5SZXNwb25zZUgAEiYKBWV2ZW50GAMgASgLMhUuZGN2",
+            "LmV4dGVuc2lvbnMuRXZlbnRIAEIFCgNtc2diBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SoftwareInfo), global::Dcv.Extensions.SoftwareInfo.Parser, new[]{ "Name", "Version", "Os", "Arch", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber), global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber.Parser, new[]{ "Major", "Minor", "Revision" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.Point), global::Dcv.Extensions.Point.Parser, new[]{ "X", "Y" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.Rect), global::Dcv.Extensions.Rect.Parser, new[]{ "X", "Y", "Width", "Height" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews), global::Dcv.Extensions.StreamingViews.Parser, new[]{ "StreamingView" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews.Types.StreamingView), global::Dcv.Extensions.StreamingViews.Types.StreamingView.Parser, new[]{ "ViewId", "LocalArea", "ZoomFactor", "RemoteOffset" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews), global::Dcv.Extensions.StreamingViews.Parser, new[]{ "StreamingView", "HasFocus" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews.Types.StreamingView), global::Dcv.Extensions.StreamingViews.Types.StreamingView.Parser, new[]{ "ViewId", "LocalArea", "ZoomFactor", "RemoteOffset", "HasFocus", "Handle" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetDcvInfoRequest), global::Dcv.Extensions.GetDcvInfoRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetManifestRequest), global::Dcv.Extensions.GetManifestRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SetupVirtualChannelRequest), global::Dcv.Extensions.SetupVirtualChannelRequest.Parser, new[]{ "VirtualChannelName", "RelayClientProcessId" }, null, null, null, null),
@@ -146,6 +147,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Information about DCV (Server or Client)
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SoftwareInfo : pb::IMessage<SoftwareInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -435,7 +437,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -473,7 +479,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -510,6 +520,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class VersionNumber : pb::IMessage<VersionNumber>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -732,7 +743,11 @@ namespace Dcv.Extensions {
         #else
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
@@ -759,7 +774,11 @@ namespace Dcv.Extensions {
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
@@ -787,6 +806,7 @@ namespace Dcv.Extensions {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Point : pb::IMessage<Point>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -971,7 +991,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -994,7 +1018,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1013,6 +1041,7 @@ namespace Dcv.Extensions {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Rect : pb::IMessage<Rect>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1255,7 +1284,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1286,7 +1319,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1316,6 +1353,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Common data to GetStreamingViewsResponse and StreamingViewsChangedEvent.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class StreamingViews : pb::IMessage<StreamingViews>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1351,6 +1389,7 @@ namespace Dcv.Extensions {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public StreamingViews(StreamingViews other) : this() {
       streamingView_ = other.streamingView_.Clone();
+      hasFocus_ = other.hasFocus_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1374,6 +1413,21 @@ namespace Dcv.Extensions {
       get { return streamingView_; }
     }
 
+    /// <summary>Field number for the "has_focus" field.</summary>
+    public const int HasFocusFieldNumber = 2;
+    private bool hasFocus_;
+    /// <summary>
+    /// Client window owns the keyboard focus.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFocus {
+      get { return hasFocus_; }
+      set {
+        hasFocus_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1390,6 +1444,7 @@ namespace Dcv.Extensions {
         return true;
       }
       if(!streamingView_.Equals(other.streamingView_)) return false;
+      if (HasFocus != other.HasFocus) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1398,6 +1453,7 @@ namespace Dcv.Extensions {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= streamingView_.GetHashCode();
+      if (HasFocus != false) hash ^= HasFocus.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1417,6 +1473,10 @@ namespace Dcv.Extensions {
       output.WriteRawMessage(this);
     #else
       streamingView_.WriteTo(output, _repeated_streamingView_codec);
+      if (HasFocus != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(HasFocus);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1428,6 +1488,10 @@ namespace Dcv.Extensions {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       streamingView_.WriteTo(ref output, _repeated_streamingView_codec);
+      if (HasFocus != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(HasFocus);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1439,6 +1503,9 @@ namespace Dcv.Extensions {
     public int CalculateSize() {
       int size = 0;
       size += streamingView_.CalculateSize(_repeated_streamingView_codec);
+      if (HasFocus != false) {
+        size += 1 + 1;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1452,6 +1519,9 @@ namespace Dcv.Extensions {
         return;
       }
       streamingView_.Add(other.streamingView_);
+      if (other.HasFocus != false) {
+        HasFocus = other.HasFocus;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1463,12 +1533,20 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
             streamingView_.AddEntriesFrom(input, _repeated_streamingView_codec);
+            break;
+          }
+          case 16: {
+            HasFocus = input.ReadBool();
             break;
           }
         }
@@ -1482,12 +1560,20 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
             streamingView_.AddEntriesFrom(ref input, _repeated_streamingView_codec);
+            break;
+          }
+          case 16: {
+            HasFocus = input.ReadBool();
             break;
           }
         }
@@ -1503,6 +1589,7 @@ namespace Dcv.Extensions {
       /// <summary>
       /// Data of one streaming view.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class StreamingView : pb::IMessage<StreamingView>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1541,6 +1628,8 @@ namespace Dcv.Extensions {
           localArea_ = other.localArea_ != null ? other.localArea_.Clone() : null;
           zoomFactor_ = other.zoomFactor_;
           remoteOffset_ = other.remoteOffset_ != null ? other.remoteOffset_.Clone() : null;
+          hasFocus_ = other.hasFocus_;
+          handle_ = other.handle_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -1610,6 +1699,36 @@ namespace Dcv.Extensions {
           }
         }
 
+        /// <summary>Field number for the "has_focus" field.</summary>
+        public const int HasFocusFieldNumber = 5;
+        private bool hasFocus_;
+        /// <summary>
+        /// Streaming view owns the keyboard focus.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasFocus {
+          get { return hasFocus_; }
+          set {
+            hasFocus_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "handle" field.</summary>
+        public const int HandleFieldNumber = 6;
+        private ulong handle_;
+        /// <summary>
+        /// ID of the window associated with the streaming view
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public ulong Handle {
+          get { return handle_; }
+          set {
+            handle_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -1629,6 +1748,8 @@ namespace Dcv.Extensions {
           if (!object.Equals(LocalArea, other.LocalArea)) return false;
           if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(ZoomFactor, other.ZoomFactor)) return false;
           if (!object.Equals(RemoteOffset, other.RemoteOffset)) return false;
+          if (HasFocus != other.HasFocus) return false;
+          if (Handle != other.Handle) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -1640,6 +1761,8 @@ namespace Dcv.Extensions {
           if (localArea_ != null) hash ^= LocalArea.GetHashCode();
           if (ZoomFactor != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(ZoomFactor);
           if (remoteOffset_ != null) hash ^= RemoteOffset.GetHashCode();
+          if (HasFocus != false) hash ^= HasFocus.GetHashCode();
+          if (Handle != 0UL) hash ^= Handle.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -1674,6 +1797,14 @@ namespace Dcv.Extensions {
             output.WriteRawTag(34);
             output.WriteMessage(RemoteOffset);
           }
+          if (HasFocus != false) {
+            output.WriteRawTag(40);
+            output.WriteBool(HasFocus);
+          }
+          if (Handle != 0UL) {
+            output.WriteRawTag(48);
+            output.WriteUInt64(Handle);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -1700,6 +1831,14 @@ namespace Dcv.Extensions {
             output.WriteRawTag(34);
             output.WriteMessage(RemoteOffset);
           }
+          if (HasFocus != false) {
+            output.WriteRawTag(40);
+            output.WriteBool(HasFocus);
+          }
+          if (Handle != 0UL) {
+            output.WriteRawTag(48);
+            output.WriteUInt64(Handle);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -1721,6 +1860,12 @@ namespace Dcv.Extensions {
           }
           if (remoteOffset_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(RemoteOffset);
+          }
+          if (HasFocus != false) {
+            size += 1 + 1;
+          }
+          if (Handle != 0UL) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Handle);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -1752,6 +1897,12 @@ namespace Dcv.Extensions {
             }
             RemoteOffset.MergeFrom(other.RemoteOffset);
           }
+          if (other.HasFocus != false) {
+            HasFocus = other.HasFocus;
+          }
+          if (other.Handle != 0UL) {
+            Handle = other.Handle;
+          }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
 
@@ -1763,7 +1914,11 @@ namespace Dcv.Extensions {
         #else
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
@@ -1789,6 +1944,14 @@ namespace Dcv.Extensions {
                 input.ReadMessage(RemoteOffset);
                 break;
               }
+              case 40: {
+                HasFocus = input.ReadBool();
+                break;
+              }
+              case 48: {
+                Handle = input.ReadUInt64();
+                break;
+              }
             }
           }
         #endif
@@ -1800,7 +1963,11 @@ namespace Dcv.Extensions {
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
@@ -1826,6 +1993,14 @@ namespace Dcv.Extensions {
                 input.ReadMessage(RemoteOffset);
                 break;
               }
+              case 40: {
+                HasFocus = input.ReadBool();
+                break;
+              }
+              case 48: {
+                Handle = input.ReadUInt64();
+                break;
+              }
             }
           }
         }
@@ -1843,6 +2018,7 @@ namespace Dcv.Extensions {
   /// response message GetDcvInfoResponse will deliver information about DCV (Server and Client)
   /// used by the extension.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetDcvInfoRequest : pb::IMessage<GetDcvInfoRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1969,7 +2145,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1984,7 +2164,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2000,6 +2184,7 @@ namespace Dcv.Extensions {
   /// response message GetManifestResponse will deliver the file path to the manifest used to launch
   /// the executable of the calling extension.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetManifestRequest : pb::IMessage<GetManifestRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2126,7 +2311,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2141,7 +2330,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2159,6 +2352,7 @@ namespace Dcv.Extensions {
   /// the processing of the request has begun, the extension will be able to send and receive data
   /// after receiving the asynchronous event VirtualChannelReadyEvent.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetupVirtualChannelRequest : pb::IMessage<SetupVirtualChannelRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2349,7 +2543,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2372,7 +2570,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2394,6 +2596,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Close a previously opened virtual channel.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CloseVirtualChannelRequest : pb::IMessage<CloseVirtualChannelRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2552,7 +2755,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2571,7 +2778,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2589,6 +2800,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Message SetCursorPointRequest will be followed by a synchronous SetCursorPointResponse.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetCursorPointRequest : pb::IMessage<SetCursorPointRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2750,7 +2962,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2772,7 +2988,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2797,6 +3017,7 @@ namespace Dcv.Extensions {
   /// (eg. the client window is resized or moved) or the geometry of the remote desktop is changed
   /// (eg. a monitor is added or removed). 
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetStreamingViewsRequest : pb::IMessage<GetStreamingViewsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2923,7 +3144,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2938,7 +3163,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2952,6 +3181,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Message IsPointInsideStreamingViewsRequest will be followed by a synchronous IsPointInsideStreamingViewsResponse.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class IsPointInsideStreamingViewsRequest : pb::IMessage<IsPointInsideStreamingViewsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3113,7 +3343,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3135,7 +3369,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3156,6 +3394,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Synchronous response to a GetDcvInfoRequest
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetDcvInfoResponse : pb::IMessage<GetDcvInfoResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3404,7 +3643,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3441,7 +3684,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3490,6 +3737,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Synchronous response to a GetManifestRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetManifestResponse : pb::IMessage<GetManifestResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3648,7 +3896,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3667,7 +3919,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3685,6 +3941,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Synchronous response to a SetupVirtualChannelRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetupVirtualChannelResponse : pb::IMessage<SetupVirtualChannelResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3939,7 +4196,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3970,7 +4231,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4000,6 +4265,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Response to a CloseVirtualChannelRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CloseVirtualChannelResponse : pb::IMessage<CloseVirtualChannelResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4158,7 +4424,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4177,7 +4447,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4195,6 +4469,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Response to a SetCursorPointRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetCursorPointResponse : pb::IMessage<SetCursorPointResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4321,7 +4596,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4336,7 +4615,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4350,6 +4633,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Synchronous response to a GetStreamingViewsRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetStreamingViewsResponse : pb::IMessage<GetStreamingViewsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4508,7 +4792,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4530,7 +4818,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4553,6 +4845,7 @@ namespace Dcv.Extensions {
   /// If the point lies inside a local view and it is visible (eg. not covered by another window or a local GUI element),
   /// the view_id of that view is returned, otherwise -1 is returned.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class IsPointInsideStreamingViewsResponse : pb::IMessage<IsPointInsideStreamingViewsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4711,7 +5004,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4730,7 +5027,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4748,6 +5049,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Successfull asynchronous response to a SetupVirtualChannelRequest.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class VirtualChannelReadyEvent : pb::IMessage<VirtualChannelReadyEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4906,7 +5208,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4925,7 +5231,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4943,6 +5253,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Asynchronous notification, the virtual channel has been closed by the other party.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class VirtualChannelClosedEvent : pb::IMessage<VirtualChannelClosedEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5101,7 +5412,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5120,7 +5435,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5138,6 +5457,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Asynchronous notification, the geometry of local views or of the remote virtual desktop has changed.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class StreamingViewsChangedEvent : pb::IMessage<StreamingViewsChangedEvent>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5296,7 +5616,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5318,7 +5642,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5336,6 +5664,7 @@ namespace Dcv.Extensions {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Request : pb::IMessage<Request>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5766,7 +6095,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5848,7 +6181,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5926,6 +6263,7 @@ namespace Dcv.Extensions {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Response : pb::IMessage<Response>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6388,7 +6726,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6474,7 +6816,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6581,6 +6927,7 @@ namespace Dcv.Extensions {
 
   }
 
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Event : pb::IMessage<Event>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6839,7 +7186,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6881,7 +7232,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6922,6 +7277,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Messages from extensions to DCV (client or server) 
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExtensionMessage : pb::IMessage<ExtensionMessage>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7110,7 +7466,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7134,7 +7494,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7157,6 +7521,7 @@ namespace Dcv.Extensions {
   /// <summary>
   /// Messags from DCV (client or server) to extensions 
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DcvMessage : pb::IMessage<DcvMessage>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7380,7 +7745,11 @@ namespace Dcv.Extensions {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7413,7 +7782,11 @@ namespace Dcv.Extensions {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

@@ -44,6 +44,7 @@ message StreamingViews {
         double zoom_factor = 3;                  // Local over remote, eg. 2.0 means that local view is twice as big as remote's area.
         Point remote_offset = 4;                 // Remote virtual screen coordinates.
         bool has_focus = 5;                      // Streaming view owns the keyboard focus.
+        uint64 handle = 6;                       // ID of the window associated with the streaming view
     }
     
     repeated StreamingView streaming_view = 1;   // Collection of streaming views.
