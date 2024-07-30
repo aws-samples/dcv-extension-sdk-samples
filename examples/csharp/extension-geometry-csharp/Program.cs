@@ -68,7 +68,7 @@ namespace DcvExtensionGeometryCS
 
                 foreach (var view in _views.StreamingView)
                     Logger.Log(
-                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}");
+                        $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}, handle=0x{view.Handle:X}");
                 
                 // Discover if mouse pointer is over a streaming area or not
                 var mouseTask = Task.Run(async () =>
@@ -76,10 +76,17 @@ namespace DcvExtensionGeometryCS
                     for (var i = 0; i < 1000; ++i)
                     {
                         NativeMethods.GetCursorPos(out var point);
+
+                        // Use Geometry API
                         var viewId = await processor.IsPointInsideStreamingViewsAsync(new Dcv.Extensions.Point
                             { X = point.X, Y = point.Y });
-                        Logger.Log($"view_id={viewId} for point X={point.X} Y={point.Y}");
+                        Logger.Log($"API view_id={viewId} for point X={point.X} Y={point.Y}");
 
+                        // Use view's handle
+                        viewId = IsPointInsideStreamingViews(point);
+                        Logger.Log($"EXT view_id={viewId} for point X={point.X} Y={point.Y}");
+
+                        // Do something if point is inside a streaming area
                         if (viewId >= 0)
                             await processor.SetCursorPointAsync(new Dcv.Extensions.Point { X = point.X, Y = point.Y });
 
@@ -110,13 +117,71 @@ namespace DcvExtensionGeometryCS
 
             foreach (var view in _views.StreamingView)
                 Logger.Log(
-                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}");
+                    $"viewId={view.ViewId} area={view.LocalArea.Width}x{view.LocalArea.Height}@[{view.LocalArea.X},{view.LocalArea.Y}] zoom={view.ZoomFactor} remote offset={view.RemoteOffset.X},{view.RemoteOffset.Y}, view has focus={view.HasFocus}, client owns focus={_views.HasFocus}, handle=0x{view.Handle:X}");
+        }
+ 
+        private static int IsPointInsideStreamingViews(Point point)
+        {
+            var streamingViews = _views?.StreamingView;
+
+            if (streamingViews == null)
+            {
+                return -1;
+            }
+
+            foreach (var view in streamingViews)
+            {
+                if (point.X < view.LocalArea.X || point.X >= view.LocalArea.X + view.LocalArea.Width ||
+                    point.Y < view.LocalArea.Y || point.Y >= view.LocalArea.Y + view.LocalArea.Height)
+                {
+                    continue;
+                }
+
+                UIntPtr hWnd = NativeMethods.WindowFromPoint(point);
+                if (hWnd.ToUInt64() == view.Handle)
+                {
+                    // Point is on a software rendered streaming area
+                    return view.ViewId;
+                }
+
+                do
+                {
+                    Point clientPoint = point;
+                    NativeMethods.ScreenToClient(hWnd, ref clientPoint);
+
+                    UIntPtr childHWnd = NativeMethods.RealChildWindowFromPoint(hWnd, clientPoint);
+                    if (childHWnd == hWnd)
+                    {
+                        // Point is on a context menu or DCV menu or overlapped window that hides the underlying streaming area
+                        return -1;
+                    }
+
+                    if (childHWnd.ToUInt64() == view.Handle)
+                    {
+                        // Point is on a hardware rendered streaming area
+                        return view.ViewId;
+                    }
+
+                    hWnd = childHWnd;
+                } while (hWnd != null);
+            }
+
+            return -1;
         }
     }
 
     internal class NativeMethods
     {
         [DllImport("user32.dll")]
-        public static extern bool GetCursorPos(out Point lpPoint);
+        internal static extern bool GetCursorPos(out Point lpPoint);
+
+        [DllImport("user32.dll")]
+        internal static extern UIntPtr RealChildWindowFromPoint(UIntPtr hwndParent, Point ptParentClientCoords);
+
+        [DllImport("user32.dll")]
+        internal static extern bool ScreenToClient(UIntPtr hWnd, ref Point lpPoint);
+
+        [DllImport("user32.dll")]
+        internal static extern UIntPtr WindowFromPoint(Point Point);
     }
 }
