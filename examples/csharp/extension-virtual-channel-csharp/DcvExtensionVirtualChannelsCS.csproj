@@ -103,7 +103,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="generated\*.cs" />
-    <ProtoC Include="$(SolutionDir)proto\*.proto" />
+    <ProtoC Include="$(SolutionDir)deps\proto\*.proto" />
   </ItemGroup>
   <Target Name="CompileProtobuf" BeforeTargets="BeforeBuild" Inputs="@(ProtoC)" Outputs="%(ProtoC.Filename).cs">
     <PropertyGroup>

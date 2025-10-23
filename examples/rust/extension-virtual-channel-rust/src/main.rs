@@ -1,20 +1,21 @@
-// /*
-//  * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-//  * SPDX-License-Identifier: MIT-0
-//  *
-//  * Permission is hereby granted, free of charge, to any person obtaining a copy of this
-//  * software and associated documentation files (the "Software"), to deal in the Software
-//  * without restriction, including without limitation the rights to use, copy, modify,
-//  * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
-//  * permit persons to whom the Software is furnished to do so.
-//  *
-//  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-//  * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-//  * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-//  * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-//  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-//  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//  */
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ * SPDX-License-Identifier: MIT-0
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ * software and associated documentation files (the "Software"), to deal in the Software
+ * without restriction, including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
 //! DCV Rust Extension
 //!
 //! This Rust extension is an example of how the DCV Extensions SDK can be used
@@ -25,12 +26,13 @@
 use log::*;
 use simplelog::{Config, WriteLogger};
 
+use dcvextension_rs::proto::get_dcv_info_response::DcvRole;
 use dcvextension_rs::utils::*;
 
 #[cfg(not(windows))]
 const LOG_FILE: &str = "/tmp/DcvExtensionVirtualChannelsRust"; // Extension log path for linux and macOS
 #[cfg(windows)]
-const LOG_FILE: &str = r"c:\temp\DcvExtensionVirtualChannelsRust"; // Extension log path for Windows
+const LOG_FILE: &str = r"C:\Temp\DcvExtensionVirtualChannelsRust"; // Extension log path for Windows
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
@@ -45,6 +47,27 @@ async fn main() -> std::io::Result<()> {
     let mut last_request_id: u32 = 1;
 
     log::info!("Starting Rust Extension...");
+
+    // Get information of DCV and SDK
+    request_dcv_info(last_request_id).await?;
+
+    let dcv_info = wait_dcv_info_response().await?;
+
+    log::info!(
+        "Launched by DCV {}",
+        match DcvRole::from_i32(dcv_info.dcv_role) {
+            Some(DcvRole::Client) => "client",
+            Some(DcvRole::Server) => "server",
+            None => "unknown",
+        }
+    );
+    log::info!(
+        "SDK version {}",
+        match dcv_info.ext_sdk_version {
+            Some(version) => format!("{}.{}.{}", version.major, version.minor, version.revision),
+            None => "1.0.0".to_string(),
+        }
+    );
 
     // Get the path to the Manifest.json file
     request_manifest_path(last_request_id).await?;

@@ -29,93 +29,99 @@ namespace Dcv.Extensions {
             "eHRlbnNpb25zLlNvZnR3YXJlSW5mby5WZXJzaW9uTnVtYmVyEgoKAm9zGAMg",
             "ASgJEgwKBGFyY2gYBCABKAkSEAoIaG9zdG5hbWUYBSABKAkaPwoNVmVyc2lv",
             "bk51bWJlchINCgVtYWpvchgBIAEoDRINCgVtaW5vchgCIAEoDRIQCghyZXZp",
-            "c2lvbhgDIAEoDSIdCgVQb2ludBIJCgF4GAEgASgFEgkKAXkYAiABKAUiOwoE",
-            "UmVjdBIJCgF4GAEgASgFEgkKAXkYAiABKAUSDQoFd2lkdGgYAyABKA0SDgoG",
-            "aGVpZ2h0GAQgASgNIpwCCg5TdHJlYW1pbmdWaWV3cxJECg5zdHJlYW1pbmdf",
-            "dmlldxgBIAMoCzIsLmRjdi5leHRlbnNpb25zLlN0cmVhbWluZ1ZpZXdzLlN0",
-            "cmVhbWluZ1ZpZXcSEQoJaGFzX2ZvY3VzGAIgASgIGrABCg1TdHJlYW1pbmdW",
-            "aWV3Eg8KB3ZpZXdfaWQYASABKAUSKAoKbG9jYWxfYXJlYRgCIAEoCzIULmRj",
-            "di5leHRlbnNpb25zLlJlY3QSEwoLem9vbV9mYWN0b3IYAyABKAESLAoNcmVt",
-            "b3RlX29mZnNldBgEIAEoCzIVLmRjdi5leHRlbnNpb25zLlBvaW50EhEKCWhh",
-            "c19mb2N1cxgFIAEoCBIOCgZoYW5kbGUYBiABKAQiEwoRR2V0RGN2SW5mb1Jl",
-            "cXVlc3QiFAoSR2V0TWFuaWZlc3RSZXF1ZXN0IlsKGlNldHVwVmlydHVhbENo",
-            "YW5uZWxSZXF1ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJEh8K",
-            "F3JlbGF5X2NsaWVudF9wcm9jZXNzX2lkGAIgASgDIjoKGkNsb3NlVmlydHVh",
-            "bENoYW5uZWxSZXF1ZXN0EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJ",
-            "Ij0KFVNldEN1cnNvclBvaW50UmVxdWVzdBIkCgVwb2ludBgBIAEoCzIVLmRj",
-            "di5leHRlbnNpb25zLlBvaW50IhoKGEdldFN0cmVhbWluZ1ZpZXdzUmVxdWVz",
-            "dCJKCiJJc1BvaW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXF1ZXN0EiQKBXBv",
-            "aW50GAEgASgLMhUuZGN2LmV4dGVuc2lvbnMuUG9pbnQi8wEKEkdldERjdklu",
-            "Zm9SZXNwb25zZRI8CghkY3Zfcm9sZRgBIAEoDjIqLmRjdi5leHRlbnNpb25z",
-            "LkdldERjdkluZm9SZXNwb25zZS5EY3ZSb2xlEhYKDmRjdl9wcm9jZXNzX2lk",
-            "GAIgASgDEjEKC3NlcnZlcl9pbmZvGAMgASgLMhwuZGN2LmV4dGVuc2lvbnMu",
-            "U29mdHdhcmVJbmZvEjEKC2NsaWVudF9pbmZvGAQgASgLMhwuZGN2LmV4dGVu",
-            "c2lvbnMuU29mdHdhcmVJbmZvIiEKB0RjdlJvbGUSCgoGU2VydmVyEAASCgoG",
-            "Q2xpZW50EAEiLAoTR2V0TWFuaWZlc3RSZXNwb25zZRIVCg1tYW5pZmVzdF9w",
-            "YXRoGAEgASgJIpQBChtTZXR1cFZpcnR1YWxDaGFubmVsUmVzcG9uc2USHAoU",
-            "dmlydHVhbF9jaGFubmVsX25hbWUYASABKAkSEgoKcmVsYXlfcGF0aBgCIAEo",
-            "CRIfChdyZWxheV9zZXJ2ZXJfcHJvY2Vzc19pZBgDIAEoAxIiChp2aXJ0dWFs",
-            "X2NoYW5uZWxfYXV0aF90b2tlbhgEIAEoDCI7ChtDbG9zZVZpcnR1YWxDaGFu",
-            "bmVsUmVzcG9uc2USHAoUdmlydHVhbF9jaGFubmVsX25hbWUYASABKAkiGAoW",
-            "U2V0Q3Vyc29yUG9pbnRSZXNwb25zZSJUChlHZXRTdHJlYW1pbmdWaWV3c1Jl",
-            "c3BvbnNlEjcKD3N0cmVhbWluZ192aWV3cxgBIAEoCzIeLmRjdi5leHRlbnNp",
-            "b25zLlN0cmVhbWluZ1ZpZXdzIjYKI0lzUG9pbnRJbnNpZGVTdHJlYW1pbmdW",
-            "aWV3c1Jlc3BvbnNlEg8KB3ZpZXdfaWQYASABKAUiOAoYVmlydHVhbENoYW5u",
-            "ZWxSZWFkeUV2ZW50EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJIjkK",
-            "GVZpcnR1YWxDaGFubmVsQ2xvc2VkRXZlbnQSHAoUdmlydHVhbF9jaGFubmVs",
-            "X25hbWUYASABKAkiVQoaU3RyZWFtaW5nVmlld3NDaGFuZ2VkRXZlbnQSNwoP",
-            "c3RyZWFtaW5nX3ZpZXdzGAEgASgLMh4uZGN2LmV4dGVuc2lvbnMuU3RyZWFt",
-            "aW5nVmlld3Mi3AQKB1JlcXVlc3QSEgoKcmVxdWVzdF9pZBgBIAEoCRJBChRn",
-            "ZXRfZGN2X2luZm9fcmVxdWVzdBgKIAEoCzIhLmRjdi5leHRlbnNpb25zLkdl",
-            "dERjdkluZm9SZXF1ZXN0SAASQgoUZ2V0X21hbmlmZXN0X3JlcXVlc3QYCyAB",
-            "KAsyIi5kY3YuZXh0ZW5zaW9ucy5HZXRNYW5pZmVzdFJlcXVlc3RIABJTCh1z",
-            "ZXR1cF92aXJ0dWFsX2NoYW5uZWxfcmVxdWVzdBgUIAEoCzIqLmRjdi5leHRl",
-            "bnNpb25zLlNldHVwVmlydHVhbENoYW5uZWxSZXF1ZXN0SAASUwodY2xvc2Vf",
-            "dmlydHVhbF9jaGFubmVsX3JlcXVlc3QYFSABKAsyKi5kY3YuZXh0ZW5zaW9u",
-            "cy5DbG9zZVZpcnR1YWxDaGFubmVsUmVxdWVzdEgAEkkKGHNldF9jdXJzb3Jf",
-            "cG9pbnRfcmVxdWVzdBgeIAEoCzIlLmRjdi5leHRlbnNpb25zLlNldEN1cnNv",
-            "clBvaW50UmVxdWVzdEgAEk8KG2dldF9zdHJlYW1pbmdfdmlld3NfcmVxdWVz",
-            "dBgfIAEoCzIoLmRjdi5leHRlbnNpb25zLkdldFN0cmVhbWluZ1ZpZXdzUmVx",
-            "dWVzdEgAEmUKJ2lzX3BvaW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVx",
-            "dWVzdBggIAEoCzIyLmRjdi5leHRlbnNpb25zLklzUG9pbnRJbnNpZGVTdHJl",
-            "YW1pbmdWaWV3c1JlcXVlc3RIAEIJCgdyZXF1ZXN0IoEHCghSZXNwb25zZRIS",
-            "CgpyZXF1ZXN0X2lkGAEgASgJEi8KBnN0YXR1cxgCIAEoDjIfLmRjdi5leHRl",
-            "bnNpb25zLlJlc3BvbnNlLlN0YXR1cxJDChVnZXRfZGN2X2luZm9fcmVzcG9u",
-            "c2UYCiABKAsyIi5kY3YuZXh0ZW5zaW9ucy5HZXREY3ZJbmZvUmVzcG9uc2VI",
-            "ABJEChVnZXRfbWFuaWZlc3RfcmVzcG9uc2UYCyABKAsyIy5kY3YuZXh0ZW5z",
-            "aW9ucy5HZXRNYW5pZmVzdFJlc3BvbnNlSAASVQoec2V0dXBfdmlydHVhbF9j",
-            "aGFubmVsX3Jlc3BvbnNlGBQgASgLMisuZGN2LmV4dGVuc2lvbnMuU2V0dXBW",
-            "aXJ0dWFsQ2hhbm5lbFJlc3BvbnNlSAASVQoeY2xvc2VfdmlydHVhbF9jaGFu",
-            "bmVsX3Jlc3BvbnNlGBUgASgLMisuZGN2LmV4dGVuc2lvbnMuQ2xvc2VWaXJ0",
-            "dWFsQ2hhbm5lbFJlc3BvbnNlSAASSwoZc2V0X2N1cnNvcl9wb2ludF9yZXNw",
-            "b25zZRgeIAEoCzImLmRjdi5leHRlbnNpb25zLlNldEN1cnNvclBvaW50UmVz",
-            "cG9uc2VIABJRChxnZXRfc3RyZWFtaW5nX3ZpZXdzX3Jlc3BvbnNlGB8gASgL",
-            "MikuZGN2LmV4dGVuc2lvbnMuR2V0U3RyZWFtaW5nVmlld3NSZXNwb25zZUgA",
-            "EmcKKGlzX3BvaW50X2luc2lkZV9zdHJlYW1pbmdfdmlld3NfcmVzcG9uc2UY",
-            "ICABKAsyMy5kY3YuZXh0ZW5zaW9ucy5Jc1BvaW50SW5zaWRlU3RyZWFtaW5n",
-            "Vmlld3NSZXNwb25zZUgAIuEBCgZTdGF0dXMSCAoETk9ORRAAEgsKB1NVQ0NF",
-            "U1MQARIRCg1FUlJPUl9HRU5FUklDEAoSFwoTRVJST1JfQUNDRVNTX0RFTklF",
-            "RBALEhkKFUVSUk9SX05PVF9JTVBMRU1FTlRFRBAMEhsKF0VSUk9SX0lOVkFM",
-            "SURfUEFSQU1FVEVSEA0SNwozRVJST1JfSU5WQUxJRF9WSVJUVUFMX0NIQU5O",
-            "RUxfTkFNRVNQQUNFX0lOX01BTklGRVNUEA4SIwofRVJST1JfVE9PX01BTllf",
-            "VklSVFVBTF9DSEFOTkVMUxAPQgoKCHJlc3BvbnNlIokCCgVFdmVudBJPCht2",
-            "aXJ0dWFsX2NoYW5uZWxfcmVhZHlfZXZlbnQYCiABKAsyKC5kY3YuZXh0ZW5z",
-            "aW9ucy5WaXJ0dWFsQ2hhbm5lbFJlYWR5RXZlbnRIABJRChx2aXJ0dWFsX2No",
-            "YW5uZWxfY2xvc2VkX2V2ZW50GBQgASgLMikuZGN2LmV4dGVuc2lvbnMuVmly",
-            "dHVhbENoYW5uZWxDbG9zZWRFdmVudEgAElMKHXN0cmVhbWluZ192aWV3c19j",
-            "aGFuZ2VkX2V2ZW50GB4gASgLMiouZGN2LmV4dGVuc2lvbnMuU3RyZWFtaW5n",
-            "Vmlld3NDaGFuZ2VkRXZlbnRIAEIHCgVldmVudCJFChBFeHRlbnNpb25NZXNz",
-            "YWdlEioKB3JlcXVlc3QYASABKAsyFy5kY3YuZXh0ZW5zaW9ucy5SZXF1ZXN0",
-            "SABCBQoDbXNnImkKCkRjdk1lc3NhZ2USLAoIcmVzcG9uc2UYAiABKAsyGC5k",
-            "Y3YuZXh0ZW5zaW9ucy5SZXNwb25zZUgAEiYKBWV2ZW50GAMgASgLMhUuZGN2",
-            "LmV4dGVuc2lvbnMuRXZlbnRIAEIFCgNtc2diBnByb3RvMw=="));
+            "c2lvbhgDIAEoDSIdCgVQb2ludBIJCgF4GAEgASgFEgkKAXkYAiABKAUiJQoE",
+            "U2l6ZRINCgV3aWR0aBgBIAEoDRIOCgZoZWlnaHQYAiABKA0iOwoEUmVjdBIJ",
+            "CgF4GAEgASgFEgkKAXkYAiABKAUSDQoFd2lkdGgYAyABKA0SDgoGaGVpZ2h0",
+            "GAQgASgNIvcCCg5TdHJlYW1pbmdWaWV3cxJECg5zdHJlYW1pbmdfdmlldxgB",
+            "IAMoCzIsLmRjdi5leHRlbnNpb25zLlN0cmVhbWluZ1ZpZXdzLlN0cmVhbWlu",
+            "Z1ZpZXcSEQoJaGFzX2ZvY3VzGAIgASgIEisKDWxvY2FsX2Rlc2t0b3AYAyAB",
+            "KAsyFC5kY3YuZXh0ZW5zaW9ucy5SZWN0EiwKDnJlbW90ZV9kZXNrdG9wGAQg",
+            "ASgLMhQuZGN2LmV4dGVuc2lvbnMuU2l6ZRqwAQoNU3RyZWFtaW5nVmlldxIP",
+            "Cgd2aWV3X2lkGAEgASgFEigKCmxvY2FsX2FyZWEYAiABKAsyFC5kY3YuZXh0",
+            "ZW5zaW9ucy5SZWN0EhMKC3pvb21fZmFjdG9yGAMgASgBEiwKDXJlbW90ZV9v",
+            "ZmZzZXQYBCABKAsyFS5kY3YuZXh0ZW5zaW9ucy5Qb2ludBIRCgloYXNfZm9j",
+            "dXMYBSABKAgSDgoGaGFuZGxlGAYgASgEIhMKEUdldERjdkluZm9SZXF1ZXN0",
+            "IhQKEkdldE1hbmlmZXN0UmVxdWVzdCJbChpTZXR1cFZpcnR1YWxDaGFubmVs",
+            "UmVxdWVzdBIcChR2aXJ0dWFsX2NoYW5uZWxfbmFtZRgBIAEoCRIfChdyZWxh",
+            "eV9jbGllbnRfcHJvY2Vzc19pZBgCIAEoAyI6ChpDbG9zZVZpcnR1YWxDaGFu",
+            "bmVsUmVxdWVzdBIcChR2aXJ0dWFsX2NoYW5uZWxfbmFtZRgBIAEoCSI9ChVT",
+            "ZXRDdXJzb3JQb2ludFJlcXVlc3QSJAoFcG9pbnQYASABKAsyFS5kY3YuZXh0",
+            "ZW5zaW9ucy5Qb2ludCIaChhHZXRTdHJlYW1pbmdWaWV3c1JlcXVlc3QiSgoi",
+            "SXNQb2ludEluc2lkZVN0cmVhbWluZ1ZpZXdzUmVxdWVzdBIkCgVwb2ludBgB",
+            "IAEoCzIVLmRjdi5leHRlbnNpb25zLlBvaW50IrgCChJHZXREY3ZJbmZvUmVz",
+            "cG9uc2USPAoIZGN2X3JvbGUYASABKA4yKi5kY3YuZXh0ZW5zaW9ucy5HZXRE",
+            "Y3ZJbmZvUmVzcG9uc2UuRGN2Um9sZRIWCg5kY3ZfcHJvY2Vzc19pZBgCIAEo",
+            "AxIxCgtzZXJ2ZXJfaW5mbxgDIAEoCzIcLmRjdi5leHRlbnNpb25zLlNvZnR3",
+            "YXJlSW5mbxIxCgtjbGllbnRfaW5mbxgEIAEoCzIcLmRjdi5leHRlbnNpb25z",
+            "LlNvZnR3YXJlSW5mbxJDCg9leHRfc2RrX3ZlcnNpb24YBSABKAsyKi5kY3Yu",
+            "ZXh0ZW5zaW9ucy5Tb2Z0d2FyZUluZm8uVmVyc2lvbk51bWJlciIhCgdEY3ZS",
+            "b2xlEgoKBlNlcnZlchAAEgoKBkNsaWVudBABIiwKE0dldE1hbmlmZXN0UmVz",
+            "cG9uc2USFQoNbWFuaWZlc3RfcGF0aBgBIAEoCSKUAQobU2V0dXBWaXJ0dWFs",
+            "Q2hhbm5lbFJlc3BvbnNlEhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJ",
+            "EhIKCnJlbGF5X3BhdGgYAiABKAkSHwoXcmVsYXlfc2VydmVyX3Byb2Nlc3Nf",
+            "aWQYAyABKAMSIgoadmlydHVhbF9jaGFubmVsX2F1dGhfdG9rZW4YBCABKAwi",
+            "OwobQ2xvc2VWaXJ0dWFsQ2hhbm5lbFJlc3BvbnNlEhwKFHZpcnR1YWxfY2hh",
+            "bm5lbF9uYW1lGAEgASgJIhgKFlNldEN1cnNvclBvaW50UmVzcG9uc2UiVAoZ",
+            "R2V0U3RyZWFtaW5nVmlld3NSZXNwb25zZRI3Cg9zdHJlYW1pbmdfdmlld3MY",
+            "ASABKAsyHi5kY3YuZXh0ZW5zaW9ucy5TdHJlYW1pbmdWaWV3cyI2CiNJc1Bv",
+            "aW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXNwb25zZRIPCgd2aWV3X2lkGAEg",
+            "ASgFIjgKGFZpcnR1YWxDaGFubmVsUmVhZHlFdmVudBIcChR2aXJ0dWFsX2No",
+            "YW5uZWxfbmFtZRgBIAEoCSI5ChlWaXJ0dWFsQ2hhbm5lbENsb3NlZEV2ZW50",
+            "EhwKFHZpcnR1YWxfY2hhbm5lbF9uYW1lGAEgASgJIlUKGlN0cmVhbWluZ1Zp",
+            "ZXdzQ2hhbmdlZEV2ZW50EjcKD3N0cmVhbWluZ192aWV3cxgBIAEoCzIeLmRj",
+            "di5leHRlbnNpb25zLlN0cmVhbWluZ1ZpZXdzItwECgdSZXF1ZXN0EhIKCnJl",
+            "cXVlc3RfaWQYASABKAkSQQoUZ2V0X2Rjdl9pbmZvX3JlcXVlc3QYCiABKAsy",
+            "IS5kY3YuZXh0ZW5zaW9ucy5HZXREY3ZJbmZvUmVxdWVzdEgAEkIKFGdldF9t",
+            "YW5pZmVzdF9yZXF1ZXN0GAsgASgLMiIuZGN2LmV4dGVuc2lvbnMuR2V0TWFu",
+            "aWZlc3RSZXF1ZXN0SAASUwodc2V0dXBfdmlydHVhbF9jaGFubmVsX3JlcXVl",
+            "c3QYFCABKAsyKi5kY3YuZXh0ZW5zaW9ucy5TZXR1cFZpcnR1YWxDaGFubmVs",
+            "UmVxdWVzdEgAElMKHWNsb3NlX3ZpcnR1YWxfY2hhbm5lbF9yZXF1ZXN0GBUg",
+            "ASgLMiouZGN2LmV4dGVuc2lvbnMuQ2xvc2VWaXJ0dWFsQ2hhbm5lbFJlcXVl",
+            "c3RIABJJChhzZXRfY3Vyc29yX3BvaW50X3JlcXVlc3QYHiABKAsyJS5kY3Yu",
+            "ZXh0ZW5zaW9ucy5TZXRDdXJzb3JQb2ludFJlcXVlc3RIABJPChtnZXRfc3Ry",
+            "ZWFtaW5nX3ZpZXdzX3JlcXVlc3QYHyABKAsyKC5kY3YuZXh0ZW5zaW9ucy5H",
+            "ZXRTdHJlYW1pbmdWaWV3c1JlcXVlc3RIABJlCidpc19wb2ludF9pbnNpZGVf",
+            "c3RyZWFtaW5nX3ZpZXdzX3JlcXVlc3QYICABKAsyMi5kY3YuZXh0ZW5zaW9u",
+            "cy5Jc1BvaW50SW5zaWRlU3RyZWFtaW5nVmlld3NSZXF1ZXN0SABCCQoHcmVx",
+            "dWVzdCKBBwoIUmVzcG9uc2USEgoKcmVxdWVzdF9pZBgBIAEoCRIvCgZzdGF0",
+            "dXMYAiABKA4yHy5kY3YuZXh0ZW5zaW9ucy5SZXNwb25zZS5TdGF0dXMSQwoV",
+            "Z2V0X2Rjdl9pbmZvX3Jlc3BvbnNlGAogASgLMiIuZGN2LmV4dGVuc2lvbnMu",
+            "R2V0RGN2SW5mb1Jlc3BvbnNlSAASRAoVZ2V0X21hbmlmZXN0X3Jlc3BvbnNl",
+            "GAsgASgLMiMuZGN2LmV4dGVuc2lvbnMuR2V0TWFuaWZlc3RSZXNwb25zZUgA",
+            "ElUKHnNldHVwX3ZpcnR1YWxfY2hhbm5lbF9yZXNwb25zZRgUIAEoCzIrLmRj",
+            "di5leHRlbnNpb25zLlNldHVwVmlydHVhbENoYW5uZWxSZXNwb25zZUgAElUK",
+            "HmNsb3NlX3ZpcnR1YWxfY2hhbm5lbF9yZXNwb25zZRgVIAEoCzIrLmRjdi5l",
+            "eHRlbnNpb25zLkNsb3NlVmlydHVhbENoYW5uZWxSZXNwb25zZUgAEksKGXNl",
+            "dF9jdXJzb3JfcG9pbnRfcmVzcG9uc2UYHiABKAsyJi5kY3YuZXh0ZW5zaW9u",
+            "cy5TZXRDdXJzb3JQb2ludFJlc3BvbnNlSAASUQocZ2V0X3N0cmVhbWluZ192",
+            "aWV3c19yZXNwb25zZRgfIAEoCzIpLmRjdi5leHRlbnNpb25zLkdldFN0cmVh",
+            "bWluZ1ZpZXdzUmVzcG9uc2VIABJnCihpc19wb2ludF9pbnNpZGVfc3RyZWFt",
+            "aW5nX3ZpZXdzX3Jlc3BvbnNlGCAgASgLMjMuZGN2LmV4dGVuc2lvbnMuSXNQ",
+            "b2ludEluc2lkZVN0cmVhbWluZ1ZpZXdzUmVzcG9uc2VIACLhAQoGU3RhdHVz",
+            "EggKBE5PTkUQABILCgdTVUNDRVNTEAESEQoNRVJST1JfR0VORVJJQxAKEhcK",
+            "E0VSUk9SX0FDQ0VTU19ERU5JRUQQCxIZChVFUlJPUl9OT1RfSU1QTEVNRU5U",
+            "RUQQDBIbChdFUlJPUl9JTlZBTElEX1BBUkFNRVRFUhANEjcKM0VSUk9SX0lO",
+            "VkFMSURfVklSVFVBTF9DSEFOTkVMX05BTUVTUEFDRV9JTl9NQU5JRkVTVBAO",
+            "EiMKH0VSUk9SX1RPT19NQU5ZX1ZJUlRVQUxfQ0hBTk5FTFMQD0IKCghyZXNw",
+            "b25zZSKJAgoFRXZlbnQSTwobdmlydHVhbF9jaGFubmVsX3JlYWR5X2V2ZW50",
+            "GAogASgLMiguZGN2LmV4dGVuc2lvbnMuVmlydHVhbENoYW5uZWxSZWFkeUV2",
+            "ZW50SAASUQocdmlydHVhbF9jaGFubmVsX2Nsb3NlZF9ldmVudBgUIAEoCzIp",
+            "LmRjdi5leHRlbnNpb25zLlZpcnR1YWxDaGFubmVsQ2xvc2VkRXZlbnRIABJT",
+            "Ch1zdHJlYW1pbmdfdmlld3NfY2hhbmdlZF9ldmVudBgeIAEoCzIqLmRjdi5l",
+            "eHRlbnNpb25zLlN0cmVhbWluZ1ZpZXdzQ2hhbmdlZEV2ZW50SABCBwoFZXZl",
+            "bnQiRQoQRXh0ZW5zaW9uTWVzc2FnZRIqCgdyZXF1ZXN0GAEgASgLMhcuZGN2",
+            "LmV4dGVuc2lvbnMuUmVxdWVzdEgAQgUKA21zZyJpCgpEY3ZNZXNzYWdlEiwK",
+            "CHJlc3BvbnNlGAIgASgLMhguZGN2LmV4dGVuc2lvbnMuUmVzcG9uc2VIABIm",
+            "CgVldmVudBgDIAEoCzIVLmRjdi5leHRlbnNpb25zLkV2ZW50SABCBQoDbXNn",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SoftwareInfo), global::Dcv.Extensions.SoftwareInfo.Parser, new[]{ "Name", "Version", "Os", "Arch", "Hostname" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber), global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber.Parser, new[]{ "Major", "Minor", "Revision" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.Point), global::Dcv.Extensions.Point.Parser, new[]{ "X", "Y" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.Size), global::Dcv.Extensions.Size.Parser, new[]{ "Width", "Height" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.Rect), global::Dcv.Extensions.Rect.Parser, new[]{ "X", "Y", "Width", "Height" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews), global::Dcv.Extensions.StreamingViews.Parser, new[]{ "StreamingView", "HasFocus" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews.Types.StreamingView), global::Dcv.Extensions.StreamingViews.Types.StreamingView.Parser, new[]{ "ViewId", "LocalArea", "ZoomFactor", "RemoteOffset", "HasFocus", "Handle" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews), global::Dcv.Extensions.StreamingViews.Parser, new[]{ "StreamingView", "HasFocus", "LocalDesktop", "RemoteDesktop" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.StreamingViews.Types.StreamingView), global::Dcv.Extensions.StreamingViews.Types.StreamingView.Parser, new[]{ "ViewId", "LocalArea", "ZoomFactor", "RemoteOffset", "HasFocus", "Handle" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetDcvInfoRequest), global::Dcv.Extensions.GetDcvInfoRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetManifestRequest), global::Dcv.Extensions.GetManifestRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SetupVirtualChannelRequest), global::Dcv.Extensions.SetupVirtualChannelRequest.Parser, new[]{ "VirtualChannelName", "RelayClientProcessId" }, null, null, null, null),
@@ -123,7 +129,7 @@ namespace Dcv.Extensions {
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SetCursorPointRequest), global::Dcv.Extensions.SetCursorPointRequest.Parser, new[]{ "Point" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetStreamingViewsRequest), global::Dcv.Extensions.GetStreamingViewsRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.IsPointInsideStreamingViewsRequest), global::Dcv.Extensions.IsPointInsideStreamingViewsRequest.Parser, new[]{ "Point" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetDcvInfoResponse), global::Dcv.Extensions.GetDcvInfoResponse.Parser, new[]{ "DcvRole", "DcvProcessId", "ServerInfo", "ClientInfo" }, null, new[]{ typeof(global::Dcv.Extensions.GetDcvInfoResponse.Types.DcvRole) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetDcvInfoResponse), global::Dcv.Extensions.GetDcvInfoResponse.Parser, new[]{ "DcvRole", "DcvProcessId", "ServerInfo", "ClientInfo", "ExtSdkVersion" }, null, new[]{ typeof(global::Dcv.Extensions.GetDcvInfoResponse.Types.DcvRole) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.GetManifestResponse), global::Dcv.Extensions.GetManifestResponse.Parser, new[]{ "ManifestPath" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.SetupVirtualChannelResponse), global::Dcv.Extensions.SetupVirtualChannelResponse.Parser, new[]{ "VirtualChannelName", "RelayPath", "RelayServerProcessId", "VirtualChannelAuthToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dcv.Extensions.CloseVirtualChannelResponse), global::Dcv.Extensions.CloseVirtualChannelResponse.Parser, new[]{ "VirtualChannelName" }, null, null, null, null),
@@ -1042,6 +1048,241 @@ namespace Dcv.Extensions {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class Size : pb::IMessage<Size>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<Size> _parser = new pb::MessageParser<Size>(() => new Size());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<Size> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Size() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Size(Size other) : this() {
+      width_ = other.width_;
+      height_ = other.height_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public Size Clone() {
+      return new Size(this);
+    }
+
+    /// <summary>Field number for the "width" field.</summary>
+    public const int WidthFieldNumber = 1;
+    private uint width_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Width {
+      get { return width_; }
+      set {
+        width_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "height" field.</summary>
+    public const int HeightFieldNumber = 2;
+    private uint height_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Height {
+      get { return height_; }
+      set {
+        height_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as Size);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Size other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Width != other.Width) return false;
+      if (Height != other.Height) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Width != 0) hash ^= Width.GetHashCode();
+      if (Height != 0) hash ^= Height.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Width != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Width);
+      }
+      if (Height != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Height);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Width != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Width);
+      }
+      if (Height != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Height);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Width != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Width);
+      }
+      if (Height != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Height);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(Size other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Width != 0) {
+        Width = other.Width;
+      }
+      if (other.Height != 0) {
+        Height = other.Height;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Width = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            Height = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Width = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            Height = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Rect : pb::IMessage<Rect>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1056,7 +1297,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1368,7 +1609,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1390,6 +1631,8 @@ namespace Dcv.Extensions {
     public StreamingViews(StreamingViews other) : this() {
       streamingView_ = other.streamingView_.Clone();
       hasFocus_ = other.hasFocus_;
+      localDesktop_ = other.localDesktop_ != null ? other.localDesktop_.Clone() : null;
+      remoteDesktop_ = other.remoteDesktop_ != null ? other.remoteDesktop_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1428,6 +1671,36 @@ namespace Dcv.Extensions {
       }
     }
 
+    /// <summary>Field number for the "local_desktop" field.</summary>
+    public const int LocalDesktopFieldNumber = 3;
+    private global::Dcv.Extensions.Rect localDesktop_;
+    /// <summary>
+    /// Position and size of local virtual screen w.r.t. the primary monitor
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Dcv.Extensions.Rect LocalDesktop {
+      get { return localDesktop_; }
+      set {
+        localDesktop_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "remote_desktop" field.</summary>
+    public const int RemoteDesktopFieldNumber = 4;
+    private global::Dcv.Extensions.Size remoteDesktop_;
+    /// <summary>
+    /// Size of remote virtual screen
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Dcv.Extensions.Size RemoteDesktop {
+      get { return remoteDesktop_; }
+      set {
+        remoteDesktop_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1445,6 +1718,8 @@ namespace Dcv.Extensions {
       }
       if(!streamingView_.Equals(other.streamingView_)) return false;
       if (HasFocus != other.HasFocus) return false;
+      if (!object.Equals(LocalDesktop, other.LocalDesktop)) return false;
+      if (!object.Equals(RemoteDesktop, other.RemoteDesktop)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1454,6 +1729,8 @@ namespace Dcv.Extensions {
       int hash = 1;
       hash ^= streamingView_.GetHashCode();
       if (HasFocus != false) hash ^= HasFocus.GetHashCode();
+      if (localDesktop_ != null) hash ^= LocalDesktop.GetHashCode();
+      if (remoteDesktop_ != null) hash ^= RemoteDesktop.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1477,6 +1754,14 @@ namespace Dcv.Extensions {
         output.WriteRawTag(16);
         output.WriteBool(HasFocus);
       }
+      if (localDesktop_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(LocalDesktop);
+      }
+      if (remoteDesktop_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(RemoteDesktop);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1492,6 +1777,14 @@ namespace Dcv.Extensions {
         output.WriteRawTag(16);
         output.WriteBool(HasFocus);
       }
+      if (localDesktop_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(LocalDesktop);
+      }
+      if (remoteDesktop_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(RemoteDesktop);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1505,6 +1798,12 @@ namespace Dcv.Extensions {
       size += streamingView_.CalculateSize(_repeated_streamingView_codec);
       if (HasFocus != false) {
         size += 1 + 1;
+      }
+      if (localDesktop_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LocalDesktop);
+      }
+      if (remoteDesktop_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RemoteDesktop);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1521,6 +1820,18 @@ namespace Dcv.Extensions {
       streamingView_.Add(other.streamingView_);
       if (other.HasFocus != false) {
         HasFocus = other.HasFocus;
+      }
+      if (other.localDesktop_ != null) {
+        if (localDesktop_ == null) {
+          LocalDesktop = new global::Dcv.Extensions.Rect();
+        }
+        LocalDesktop.MergeFrom(other.LocalDesktop);
+      }
+      if (other.remoteDesktop_ != null) {
+        if (remoteDesktop_ == null) {
+          RemoteDesktop = new global::Dcv.Extensions.Size();
+        }
+        RemoteDesktop.MergeFrom(other.RemoteDesktop);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1549,6 +1860,20 @@ namespace Dcv.Extensions {
             HasFocus = input.ReadBool();
             break;
           }
+          case 26: {
+            if (localDesktop_ == null) {
+              LocalDesktop = new global::Dcv.Extensions.Rect();
+            }
+            input.ReadMessage(LocalDesktop);
+            break;
+          }
+          case 34: {
+            if (remoteDesktop_ == null) {
+              RemoteDesktop = new global::Dcv.Extensions.Size();
+            }
+            input.ReadMessage(RemoteDesktop);
+            break;
+          }
         }
       }
     #endif
@@ -1574,6 +1899,20 @@ namespace Dcv.Extensions {
           }
           case 16: {
             HasFocus = input.ReadBool();
+            break;
+          }
+          case 26: {
+            if (localDesktop_ == null) {
+              LocalDesktop = new global::Dcv.Extensions.Rect();
+            }
+            input.ReadMessage(LocalDesktop);
+            break;
+          }
+          case 34: {
+            if (remoteDesktop_ == null) {
+              RemoteDesktop = new global::Dcv.Extensions.Size();
+            }
+            input.ReadMessage(RemoteDesktop);
             break;
           }
         }
@@ -2033,7 +2372,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2199,7 +2538,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2367,7 +2706,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2611,7 +2950,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2815,7 +3154,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3032,7 +3371,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3196,7 +3535,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3409,7 +3748,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3433,6 +3772,7 @@ namespace Dcv.Extensions {
       dcvProcessId_ = other.dcvProcessId_;
       serverInfo_ = other.serverInfo_ != null ? other.serverInfo_.Clone() : null;
       clientInfo_ = other.clientInfo_ != null ? other.clientInfo_.Clone() : null;
+      extSdkVersion_ = other.extSdkVersion_ != null ? other.extSdkVersion_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3490,6 +3830,18 @@ namespace Dcv.Extensions {
       }
     }
 
+    /// <summary>Field number for the "ext_sdk_version" field.</summary>
+    public const int ExtSdkVersionFieldNumber = 5;
+    private global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber extSdkVersion_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber ExtSdkVersion {
+      get { return extSdkVersion_; }
+      set {
+        extSdkVersion_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3509,6 +3861,7 @@ namespace Dcv.Extensions {
       if (DcvProcessId != other.DcvProcessId) return false;
       if (!object.Equals(ServerInfo, other.ServerInfo)) return false;
       if (!object.Equals(ClientInfo, other.ClientInfo)) return false;
+      if (!object.Equals(ExtSdkVersion, other.ExtSdkVersion)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3520,6 +3873,7 @@ namespace Dcv.Extensions {
       if (DcvProcessId != 0L) hash ^= DcvProcessId.GetHashCode();
       if (serverInfo_ != null) hash ^= ServerInfo.GetHashCode();
       if (clientInfo_ != null) hash ^= ClientInfo.GetHashCode();
+      if (extSdkVersion_ != null) hash ^= ExtSdkVersion.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3554,6 +3908,10 @@ namespace Dcv.Extensions {
         output.WriteRawTag(34);
         output.WriteMessage(ClientInfo);
       }
+      if (extSdkVersion_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ExtSdkVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3580,6 +3938,10 @@ namespace Dcv.Extensions {
         output.WriteRawTag(34);
         output.WriteMessage(ClientInfo);
       }
+      if (extSdkVersion_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(ExtSdkVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3601,6 +3963,9 @@ namespace Dcv.Extensions {
       }
       if (clientInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ClientInfo);
+      }
+      if (extSdkVersion_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExtSdkVersion);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3631,6 +3996,12 @@ namespace Dcv.Extensions {
           ClientInfo = new global::Dcv.Extensions.SoftwareInfo();
         }
         ClientInfo.MergeFrom(other.ClientInfo);
+      }
+      if (other.extSdkVersion_ != null) {
+        if (extSdkVersion_ == null) {
+          ExtSdkVersion = new global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber();
+        }
+        ExtSdkVersion.MergeFrom(other.ExtSdkVersion);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3671,6 +4042,13 @@ namespace Dcv.Extensions {
               ClientInfo = new global::Dcv.Extensions.SoftwareInfo();
             }
             input.ReadMessage(ClientInfo);
+            break;
+          }
+          case 42: {
+            if (extSdkVersion_ == null) {
+              ExtSdkVersion = new global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber();
+            }
+            input.ReadMessage(ExtSdkVersion);
             break;
           }
         }
@@ -3714,6 +4092,13 @@ namespace Dcv.Extensions {
             input.ReadMessage(ClientInfo);
             break;
           }
+          case 42: {
+            if (extSdkVersion_ == null) {
+              ExtSdkVersion = new global::Dcv.Extensions.SoftwareInfo.Types.VersionNumber();
+            }
+            input.ReadMessage(ExtSdkVersion);
+            break;
+          }
         }
       }
     }
@@ -3752,7 +4137,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3956,7 +4341,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4280,7 +4665,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4484,7 +4869,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4648,7 +5033,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4860,7 +5245,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5064,7 +5449,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5268,7 +5653,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5455,7 +5840,7 @@ namespace Dcv.Extensions {
   }
 
   /// <summary>
-  /// Asynchronous notification, the geometry of local views or of the remote virtual desktop has changed.
+  /// Asynchronous notification, the geometry of local views or of the remote virtual screen has changed.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class StreamingViewsChangedEvent : pb::IMessage<StreamingViewsChangedEvent>
@@ -5472,7 +5857,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5679,7 +6064,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6278,7 +6663,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6942,7 +7327,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7292,7 +7677,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7536,7 +7921,7 @@ namespace Dcv.Extensions {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Dcv.Extensions.ExtensionsReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

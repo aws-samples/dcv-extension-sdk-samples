@@ -10,7 +10,6 @@ Win32
 Release
 /build
 /builddir
-/deps
 **/protobuf-c/*
 *.filters
 *.user

@@ -1,20 +1,21 @@
-// /*
-//  * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-//  * SPDX-License-Identifier: MIT-0
-//  *
-//  * Permission is hereby granted, free of charge, to any person obtaining a copy of this
-//  * software and associated documentation files (the "Software"), to deal in the Software
-//  * without restriction, including without limitation the rights to use, copy, modify,
-//  * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
-//  * permit persons to whom the Software is furnished to do so.
-//  *
-//  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-//  * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-//  * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-//  * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-//  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-//  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//  */
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ * SPDX-License-Identifier: MIT-0
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ * software and associated documentation files (the "Software"), to deal in the Software
+ * without restriction, including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
 //! This file shows how to make requests to interact with DCV, handle their respective
 //! responses and create a local relay(unix socket) for Virtual Channel Communication
 
@@ -117,6 +118,23 @@ pub async fn read_write_over_virtual_channel_ipc<T: AsyncRead + AsyncWrite + Unp
 
 /* Handle Requests */
 
+// Sends a request to DCV to get DCV information and Extensions SDK version
+pub async fn request_dcv_info(request_id: u32) -> io::Result<()> {
+    let dcv_info_request = request::Request::GetDcvInfoRequest(GetDcvInfoRequest {});
+
+    let request = Request {
+        request_id: request_id.to_string(),
+        request: Some(dcv_info_request),
+    };
+
+    log::info!(
+        "GetDcvInfo - Sending message request with id: '{}'",
+        request_id,
+    );
+
+    write_request(request).await
+}
+
 // Sends a request to DCV to get the filepath of the Manifest.json file
 pub async fn request_manifest_path(request_id: u32) -> io::Result<()> {
     let manifest_request = request::Request::GetManifestRequest(GetManifestRequest {});
@@ -181,6 +199,34 @@ pub async fn request_close_virtual_channel(request_id: u32, vc_name: &str) -> io
 }
 
 /* Validate and handle the Responses */
+
+pub async fn wait_dcv_info_response() -> io::Result<GetDcvInfoResponse> {
+    let response = read_response(read_message().await?);
+
+    match response {
+        Ok(response::Response::GetDcvInfoResponse(res)) => {
+            log::info!("GetDcvInfo - Received DCV info response");
+
+            Ok(res)
+        }
+        Ok(res) => {
+            log::error!(
+                "GetDcvInfo - Was expecting 'GetDcvInfoResponse'. Received: {:?}",
+                res
+            );
+
+            Err(Error::new(
+                io::ErrorKind::InvalidData,
+                "Response type mismatch".to_string(),
+            ))
+        }
+        Err(e) => {
+            log::error!("GetDcvInfo - Failed to get response. {}", e);
+
+            Err(e)
+        }
+    }
+}
 
 pub async fn wait_manifest_path_response() -> io::Result<GetManifestResponse> {
     let response = read_response(read_message().await?);

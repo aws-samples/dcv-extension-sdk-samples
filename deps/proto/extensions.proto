@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ * Copyright 2022-2025 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  */
 
 syntax = "proto3";
@@ -28,6 +28,11 @@ message Point {
     int32 y = 2;
 }
 
+message Size {
+    uint32 width = 1;
+    uint32 height = 2;
+}
+
 message Rect {
     int32 x = 1;
     int32 y = 2;
@@ -49,16 +54,18 @@ message StreamingViews {
     
     repeated StreamingView streaming_view = 1;   // Collection of streaming views.
     bool has_focus = 2;                          // Client window owns the keyboard focus.
+    Rect local_desktop = 3;                      // Position and size of local virtual screen w.r.t. the primary monitor
+    Size remote_desktop = 4;                     // Size of remote virtual screen
 }
 
 /* Request messages */
 
- // Message GetDcvInfoRequest can be issued by both client and server extensions, the synchronous
- // response message GetDcvInfoResponse will deliver information about DCV (Server and Client)
- // used by the extension.
- message GetDcvInfoRequest {
+// Message GetDcvInfoRequest can be issued by both client and server extensions, the synchronous
+// response message GetDcvInfoResponse will deliver information about DCV (Server and Client)
+// used by the extension.
+message GetDcvInfoRequest {
     /* Empty */
- }
+}
 
 // Message GetManifestRequest can be issued by both client and server extensions, the synchronous
 // response message GetManifestResponse will deliver the file path to the manifest used to launch
@@ -114,6 +121,7 @@ message GetDcvInfoResponse {
     int64 dcv_process_id = 2;
     SoftwareInfo server_info = 3;
     SoftwareInfo client_info = 4;
+    SoftwareInfo.VersionNumber ext_sdk_version = 5;
 }
 
 // Synchronous response to a GetManifestRequest.
@@ -163,7 +171,7 @@ message VirtualChannelClosedEvent {
     string virtual_channel_name = 1;             // Specific name of the closed virtual channel.
 }
 
-// Asynchronous notification, the geometry of local views or of the remote virtual desktop has changed.
+// Asynchronous notification, the geometry of local views or of the remote virtual screen has changed.
 message StreamingViewsChangedEvent {
     StreamingViews streaming_views = 1;
 }
