@@ -1,0 +1,34 @@
+name: Build Rust Extension
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v6
+    
+    - name: Setup Rust
+      uses: actions-rust-lang/setup-rust-toolchain@v1
+    
+    - name: Build
+      working-directory: examples/rust/extension-virtual-channel-rust
+      run: cargo build --release
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v6
+      with:
+        name: dcvextension-rs-${{ matrix.os }}
+        path: |
+          examples/rust/extension-virtual-channel-rust/target/release/dcvextension-rs*
+          !examples/rust/extension-virtual-channel-rust/target/release/*.d
